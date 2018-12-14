@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Ramos on Software  | DST and Software</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.52" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+
+    <meta property="og:title" content="DST and Software" />
+<meta property="og:description" content="Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &ldquo;unified clock regime&rdquo; make the change in the same day.
+These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jcjramos.github.io/posts/2018-03-26-dst-and-software/" />
+
+<meta itemprop="name" content="DST and Software">
+<meta itemprop="description" content="Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &ldquo;unified clock regime&rdquo; make the change in the same day.
+These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ?">
+
+
+
+<meta itemprop="wordCount" content="375">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="DST and Software"/>
+<meta name="twitter:description" content="Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &ldquo;unified clock regime&rdquo; make the change in the same day.
+These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ?"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://jcjramos.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Ramos on Software
+    </a>
+    <div class="flex-l items-center">
+      
+      
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">DST and Software</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="0001-01-01T00:00:00Z">January 1, 0001</time>      
+      
+      
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &ldquo;unified clock regime&rdquo; make the change in the same day.</p>
+
+<p>These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ? in our case we have decided to “duplicate” the 0:00 to 1:00 period, but a dedicated routine was written in C++ to handle it. Not actually an easy task…jumping time doesn’t make life easy for software developers, in particular if the software somehow relates to continuous time related data.</p>
+
+<p>These time zone changes don’t seem of much use and actually create a lot of minor problems – my Phone knows how to automatically update DST, but not my analog clock, thus I had to tour around the house last Saturday and check what clocks need to be updated and not ( end up missing the car clock…) , also the dog hatted to walk so early this morning. Although I really like the long daylight in summer days I think we would all gain without this unnecessary annoyance.</p>
+
+<p>What is different this time, is that like me a lot of people think that this is unnecessary and there is even a recommendation to <a href="https://www.timeanddate.com/news/time/eu-parliament-abolish-dst.html">re-evaluate the DST in Europe</a>.</p>
+
+<p>But if DST is scrapped this means that all the Software that knows how to automatically adjust time must be updated, how that will be managed ? after some digging I’ve noticed that time zone changes are actually not that rare in the world – for example Turkey changed in 2015, and Microsoft has a specific team that handles time zone related issues named <a href="https://www.wired.com/story/microsoft-time-lords/">the “Time Lords”</a>.</p>
+
+<p>I wonder how many windows updates are related to some country around the world changing clocks.</p>
+
+<p>Note: <a href="https://en.wikipedia.org/wiki/Leap_second">Leap Seconds</a> are even stranger that DST … hours like 23:59:60 are difficult event for Humans to understand 😊</p>
+
+<p>&nbsp;</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
+    &copy; 2018 Ramos on Software
+  </a>
+    <div>
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

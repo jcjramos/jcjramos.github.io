@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ramos on Software</title>
+    <link>https://jcjramos.github.io/posts/</link>
+    <description>Recent content in Posts on Ramos on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Dec 2018 13:23:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://jcjramos.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Ingress triology</title>
+      <link>https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/</link>
+      <pubDate>Fri, 14 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/</guid>
+      <description>Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details. Docker &amp;amp; Kubernetes were designed with isolation in mind ( they are called containers for a reason ). You need to understand the Ingress triology properlly : Ingress -&amp;gt; Service -&amp;gt; Containers.
+The Container The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver.</description>
+    </item>
+    
+    <item>
+      <title>About Bitcoin, Cryptocurrencies and Cryptomining</title>
+      <link>https://jcjramos.github.io/posts/2018-02-27-about-bitcoin-cryptocurrencies-and-cryptomining/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-02-27-about-bitcoin-cryptocurrencies-and-cryptomining/</guid>
+      <description>The current cryptocurrency trend brings fresh challenges to security, and should be a concern even if you, like me don’t understand where’s the fun of Bitcoin and don’t care much about it.
+Cryptocurrencies were one of the greatest trends in 2017, in particular the crypto “star” Bitcoin that started the year around 1000$ and ended it well above 10000$. Although I really don’t find Bitcoin particularly interesting ( just go elsewhere if you are looking for investment tips – I’m not really good at it ) I think that the concept behind it, Blockchain, has potential and can be useful in a lot of different ways.</description>
+    </item>
+    
+    <item>
+      <title>About GDPR</title>
+      <link>https://jcjramos.github.io/posts/2018-02-23-about-gdpr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-02-23-about-gdpr/</guid>
+      <description>GDPR is something that is been given some headaches to people like me, involved in secure software development, it stands for “General Data Protection Regulation” ( seehttps://www.eugdpr.org/), it’s a new EU wide regulation coming from the European Parliament that impacts companies that collect or process data related to European Citizens. The GDPR will be enforced after 25 May 2018 and means potential heavy fines for non-complaint companies.
+Compliance will cause some concerns as according to the European Commission &amp;ldquo;personal data is any information relating to an individual, whether it relates to his or her private, professional or public life.</description>
+    </item>
+    
+    <item>
+      <title>About Spectre &amp; Meltdown</title>
+      <link>https://jcjramos.github.io/posts/2018-02-23-about-spectre-meltdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-02-23-about-spectre-meltdown/</guid>
+      <description>For several reasons Meltdown and Spectre are a very interesting set of vulnerabilities that illustrates well the challenges involved to create secure software applications these days.
+Details &amp;amp; more info in :
+https://meltdownattack.com/
+Some semi random thoughts about it :    Although not so risky as been portrayed in the press, basically both vulnerabilities are related to isolation - means that a potential attacker can use them to get information on the local computing device, not to attack remote systems.</description>
+    </item>
+    
+    <item>
+      <title>DST and Software</title>
+      <link>https://jcjramos.github.io/posts/2018-03-26-dst-and-software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-26-dst-and-software/</guid>
+      <description>Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &amp;ldquo;unified clock regime&amp;rdquo; make the change in the same day.
+These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ?</description>
+    </item>
+    
+    <item>
+      <title>E-Nightmare</title>
+      <link>https://jcjramos.github.io/posts/2018-08-24-e-nightmare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-08-24-e-nightmare/</guid>
+      <description>“E-Government” has been quite a trendy buzzword all around Europe, according to the UN E-Government survey Portugal ranks 29 in worldwide E-Government services which is not great but not too bad either. For sake of comparison number 1 is Denmark, Belgium is 28 and Poland 33.
+Anyway It is cool that many public services have been made available online. I just wonder what the ranking would be if they considered security.</description>
+    </item>
+    
+    <item>
+      <title>How do I know if a particular Web site is secure ? HTTP vs HTTPs</title>
+      <link>https://jcjramos.github.io/posts/2018-03-09-how-do-i-know-if-a-particular-web-site-is-secure-part-1-http-vs-https/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-09-how-do-i-know-if-a-particular-web-site-is-secure-part-1-http-vs-https/</guid>
+      <description>The short answer is you don’t know … there is no simple ways to check, web infrastructure these days is complex and there is no public reporting of security practices used or even testing reports. The web owner can ( and will if they care about security ) use some kind of vulnerability testing, but it’s actually not nice to test 3rd party sites for vulnerabilities and generally people don’t make these public.</description>
+    </item>
+    
+    <item>
+      <title>Is P@ssword1 more secure than password ?</title>
+      <link>https://jcjramos.github.io/posts/2018-03-06-is-pssword1-more-secure-than-password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-06-is-pssword1-more-secure-than-password/</guid>
+      <description>On the scope on the GDPR there was some recent news in Portugal regarding Government guidelines for online public services. Atually public service security is an important issue as in Portugal we have lot’s of personal info in public sites, for example a service call eFactura stores basically every invoice where you have put a VAT number – thus very valuable info.
+The new guidelines are still under discussion, but a kind of pre-release showed up today in todays specialized press.</description>
+    </item>
+    
+    <item>
+      <title>On Privacy vs Value</title>
+      <link>https://jcjramos.github.io/posts/2018-03-01-75/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-01-75/</guid>
+      <description>Data is new Oil, I don’t know who came up with the analogy, I think I’ve read it 1st on Wired but it really highlight’s the value of data these days.
+This should be a reminder that data is valuable, likely you wouldn’t consider sending a few bottles of gasoline to BP just because it’s fun but you produce a huge amount of data that you are giving to online companies without getting much in return.</description>
+    </item>
+    
+    <item>
+      <title>Read Last Week - Everybody loves Facebook !</title>
+      <link>https://jcjramos.github.io/posts/2018-03-26-read-last-week-everybody-loves-facebook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-26-read-last-week-everybody-loves-facebook/</guid>
+      <description>The register  Facebook&amp;rsquo;s inflection point: Now everyone knows this greedy mass surveillance operation for what it is  Slashdot This past week, a New Zealand man was looking through the data Facebook had collected from him in an archive he had pulled down from the social networking site. While scanning the information Facebook had stored about his contacts, Dylan McKay discovered something distressing: Facebook also had about two years worth of phone call metadata from his Android phone</description>
+    </item>
+    
+    <item>
+      <title>Read last week</title>
+      <link>https://jcjramos.github.io/posts/2018-03-05-read-last-wekk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-05-read-last-wekk/</guid>
+      <description>The economist on “self driving cars” 
+Particularly interesting is this part regarding privacy “AVs will record everything that happens in and around them. When a crime is committed, the police will ask nearby cars if they saw anything. Fleet operators will know a great deal about their riders”.
+Wired on China “Big Brother” Social Credits approach
+Kind of old news, but found it last week …&amp;ldquo;Imagine a world where many of your daily activities were constantly monitored and evaluated… It&amp;rsquo;s not hard to picture, because most of that already happens….</description>
+    </item>
+    
+    <item>
+      <title>Read last week</title>
+      <link>https://jcjramos.github.io/posts/2018-10-12-read-last-week-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-10-12-read-last-week-3/</guid>
+      <description>NotPetya The Untold Story of NotPetya, the Most Devastating Cyberattack in History. Fear At the Open Source Summit, Window Snyder, Chief Security Officer at Intel, explains why fear is not a good motivator for improving cyber-security and provides insight into how to improve software defenses. Security  In today&amp;rsquo;s world, computers are now so omnipresent that there is no longer any such thing as cybersecurity, online security, or computer security – there&amp;rsquo;s only security.</description>
+    </item>
+    
+    <item>
+      <title>Read last week - Cambridge Analytica</title>
+      <link>https://jcjramos.github.io/posts/2018-03-20-read-last-week-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-20-read-last-week-2/</guid>
+      <description>BBC on Cambridge Analytica
+Tech giant Facebook and data analytics firm Cambridge Analytica are at the centre of a dispute over the harvesting and use of personal dat
+&amp;nbsp;
+BGR on Slingshot
+A nation-state developed a piece of malware so powerful that it can steal everything that’s happening on a computer without even being install on the target device itself. Instead, it resides on a router. It’s called Slingshot and it was recently discovered by Kaspersky Labs.</description>
+    </item>
+    
+    <item>
+      <title>Read last week - MoviePass</title>
+      <link>https://jcjramos.github.io/posts/2018-03-12-read-last-week/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-12-read-last-week/</guid>
+      <description>Wow
+MoviePass CEO Mitch Lowe told an audience at a Hollywood event last Friday that the app tracks moviegoers&amp;rsquo; locations before and after each show they watch. &amp;ldquo;We get an enormous amount of information,&amp;rdquo;
+Hardcoded Password Found in Cisco Software
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Read last week - Whois GDPR ?</title>
+      <link>https://jcjramos.github.io/posts/2018-04-30-read-last-week-whois-gdpr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-04-30-read-last-week-whois-gdpr/</guid>
+      <description>Hey, so Europe&amp;rsquo;s GDPR privacy deadline for Whois? We&amp;rsquo;re going to miss it &amp;hellip; by a year or so https://www.theregister.co.uk/2018/04/10/gdpr_whois_regulations/ China “Social Credit Score” http://newyork.cbslocal.com/2018/04/24/china-assigns-every-citizen-a-social-credit-score-to-identify-who-is-and-isnt-trustworthy/ Google new Chat service https://www.bleepingcomputer.com/news/google/google-accused-of-showing-total-contempt-for-android-users-privacy/</description>
+    </item>
+    
+    <item>
+      <title>The new normal ?</title>
+      <link>https://jcjramos.github.io/posts/2018-08-17-165/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-08-17-165/</guid>
+      <description>Last week, CUF hospital, one of the biggest Portuguese private hospitals was attacked by ransomware, you can read about it here if you can read Portuguese.
+seems that the the SamSam ransomware was used, likely by the same grupo that has been targeting hospitals around the globe .
+There are not many details available, the Hospital claims that “Everything is normal”, but apparently some exams were lost, likely encrypted by the ransomware, as they refused to pay for the ransom.</description>
+    </item>
+    
+  </channel>
+</rss>

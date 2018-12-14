@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dst on Ramos on Software</title>
+    <link>https://jcjramos.github.io/categories/dst/</link>
+    <description>Recent content in Dst on Ramos on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://jcjramos.github.io/categories/dst/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DST and Software</title>
+      <link>https://jcjramos.github.io/posts/2018-03-26-dst-and-software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-03-26-dst-and-software/</guid>
+      <description>Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &amp;ldquo;unified clock regime&amp;rdquo; make the change in the same day.
+These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ?</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Ramos on Software</title>
+    <link>https://jcjramos.github.io/categories/docker/</link>
+    <description>Recent content in Docker on Ramos on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Dec 2018 13:23:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://jcjramos.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Ingress triology</title>
+      <link>https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/</link>
+      <pubDate>Fri, 14 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/</guid>
+      <description>Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details. Docker &amp;amp; Kubernetes were designed with isolation in mind ( they are called containers for a reason ). You need to understand the Ingress triology properlly : Ingress -&amp;gt; Service -&amp;gt; Containers.
+The Container The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver.</description>
+    </item>
+    
+  </channel>
+</rss>
