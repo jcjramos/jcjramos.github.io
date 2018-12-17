@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jcjramos.github.io/posts/2018-12-17-not-so-microservices/</loc>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/</loc>
     <lastmod>2018-12-14T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -65,7 +72,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/categories/docker/</loc>
-    <lastmod>2018-12-14T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -102,7 +109,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/getting-started/</loc>
-    <lastmod>2018-12-14T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -121,14 +128,14 @@
   
   <url>
     <loc>https://jcjramos.github.io/categories/kubernetes/</loc>
-    <lastmod>2018-12-14T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/microservices/</loc>
-    <lastmod>2018-12-14T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -147,7 +154,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/posts/</loc>
-    <lastmod>2018-12-14T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -172,7 +179,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/</loc>
-    <lastmod>2018-12-14T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -233,7 +240,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/</loc>
-    <lastmod>2018-12-14T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
