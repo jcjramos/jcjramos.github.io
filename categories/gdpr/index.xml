@@ -6,14 +6,24 @@
     <description>Recent content in Gdpr on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 30 Apr 2018 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/categories/gdpr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Read last week - Whois GDPR ?</title>
+      <link>https://jcjramos.github.io/posts/2018-04-30-read-last-week-whois-gdpr/</link>
+      <pubDate>Mon, 30 Apr 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-04-30-read-last-week-whois-gdpr/</guid>
+      <description>Hey, so Europe&amp;rsquo;s GDPR privacy deadline for Whois? We&amp;rsquo;re going to miss it &amp;hellip; by a year or so https://www.theregister.co.uk/2018/04/10/gdpr_whois_regulations/ China “Social Credit Score” http://newyork.cbslocal.com/2018/04/24/china-assigns-every-citizen-a-social-credit-score-to-identify-who-is-and-isnt-trustworthy/ Google new Chat service https://www.bleepingcomputer.com/news/google/google-accused-of-showing-total-contempt-for-android-users-privacy/</description>
+    </item>
+    
+    <item>
       <title>Is P@ssword1 more secure than password ?</title>
       <link>https://jcjramos.github.io/posts/2018-03-06-is-pssword1-more-secure-than-password/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Mar 2018 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/posts/2018-03-06-is-pssword1-more-secure-than-password/</guid>
       <description>On the scope on the GDPR there was some recent news in Portugal regarding Government guidelines for online public services. Atually public service security is an important issue as in Portugal we have lot’s of personal info in public sites, for example a service call eFactura stores basically every invoice where you have put a VAT number – thus very valuable info.
@@ -21,12 +31,13 @@ The new guidelines are still under discussion, but a kind of pre-release showed 
     </item>
     
     <item>
-      <title>Read last week - Whois GDPR ?</title>
-      <link>https://jcjramos.github.io/posts/2018-04-30-read-last-week-whois-gdpr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>About GDPR</title>
+      <link>https://jcjramos.github.io/posts/2018-02-23-about-gdpr/</link>
+      <pubDate>Fri, 23 Feb 2018 13:23:10 +0100</pubDate>
       
-      <guid>https://jcjramos.github.io/posts/2018-04-30-read-last-week-whois-gdpr/</guid>
-      <description>Hey, so Europe&amp;rsquo;s GDPR privacy deadline for Whois? We&amp;rsquo;re going to miss it &amp;hellip; by a year or so https://www.theregister.co.uk/2018/04/10/gdpr_whois_regulations/ China “Social Credit Score” http://newyork.cbslocal.com/2018/04/24/china-assigns-every-citizen-a-social-credit-score-to-identify-who-is-and-isnt-trustworthy/ Google new Chat service https://www.bleepingcomputer.com/news/google/google-accused-of-showing-total-contempt-for-android-users-privacy/</description>
+      <guid>https://jcjramos.github.io/posts/2018-02-23-about-gdpr/</guid>
+      <description>GDPR is something that is been given some headaches to people like me, involved in secure software development, it stands for “General Data Protection Regulation” ( seehttps://www.eugdpr.org/), it’s a new EU wide regulation coming from the European Parliament that impacts companies that collect or process data related to European Citizens. The GDPR will be enforced after 25 May 2018 and means potential heavy fines for non-complaint companies.
+Compliance will cause some concerns as according to the European Commission &amp;ldquo;personal data is any information relating to an individual, whether it relates to his or her private, professional or public life.</description>
     </item>
     
   </channel>

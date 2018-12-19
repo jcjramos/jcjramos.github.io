@@ -12,11 +12,47 @@
     
     
     <item>
-      <title>Getting Started</title>
-      <link>https://jcjramos.github.io/tags/getting-started/</link>
+      <title>Architecture</title>
+      <link>https://jcjramos.github.io/tags/architecture/</link>
       <pubDate>Mon, 17 Dec 2018 13:23:10 +0100</pubDate>
       
-      <guid>https://jcjramos.github.io/tags/getting-started/</guid>
+      <guid>https://jcjramos.github.io/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://jcjramos.github.io/tags/docker/</link>
+      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ingress</title>
+      <link>https://jcjramos.github.io/tags/ingress/</link>
+      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/tags/ingress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://jcjramos.github.io/tags/kubernetes/</link>
+      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservices</title>
+      <link>https://jcjramos.github.io/tags/microservices/</link>
+      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/tags/microservices/</guid>
       <description></description>
     </item>
     

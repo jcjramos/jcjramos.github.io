@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jcjramos.github.io/posts/2018-12-19-about-helm/</loc>
+    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/posts/2018-12-17-not-so-microservices/</loc>
     <lastmod>2018-12-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,27 +24,121 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/about/</loc>
+    <loc>https://jcjramos.github.io/posts/2018-10-12-read-last-week-3/</loc>
+    <lastmod>2018-10-12T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-08-24-e-nightmare/</loc>
+    <lastmod>2018-08-24T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-08-17-165/</loc>
+    <lastmod>2018-08-17T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-04-30-read-last-week-whois-gdpr/</loc>
+    <lastmod>2018-04-30T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-03-26-read-last-week-everybody-loves-facebook/</loc>
+    <lastmod>2018-03-27T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-03-26-dst-and-software/</loc>
+    <lastmod>2018-03-26T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-03-20-read-last-week-2/</loc>
+    <lastmod>2018-03-20T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-03-12-read-last-week/</loc>
+    <lastmod>2018-03-13T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-03-09-how-do-i-know-if-a-particular-web-site-is-secure-part-1-http-vs-https/</loc>
+    <lastmod>2018-03-09T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-03-06-is-pssword1-more-secure-than-password/</loc>
+    <lastmod>2018-03-06T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-03-05-read-last-wekk/</loc>
+    <lastmod>2018-03-05T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-03-01-75/</loc>
+    <lastmod>2018-03-01T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/posts/2018-02-27-about-bitcoin-cryptocurrencies-and-cryptomining/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/posts/2018-02-23-about-gdpr/</loc>
+    <lastmod>2018-02-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/posts/2018-02-23-about-spectre-meltdown/</loc>
+    <lastmod>2018-02-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-02-23-about-gdpr/</loc>
+    <lastmod>2018-02-23T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/tags/architecture/</loc>
+    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -54,186 +155,140 @@
   
   <url>
     <loc>https://jcjramos.github.io/categories/cryptocurrencies/</loc>
+    <lastmod>2018-02-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/current-trends/</loc>
+    <lastmod>2018-10-12T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2018-03-26-dst-and-software/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/categories/docker/</loc>
-    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
+    <loc>https://jcjramos.github.io/tags/docker/</loc>
+    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/dst/</loc>
+    <lastmod>2018-03-26T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/e-government/</loc>
+    <lastmod>2018-08-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2018-08-24-e-nightmare/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://jcjramos.github.io/categories/facebook/</loc>
+    <lastmod>2018-03-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/gdpr/</loc>
+    <lastmod>2018-04-30T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/tags/getting-started/</loc>
-    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
+    <loc>https://jcjramos.github.io/tags/ingress/</loc>
+    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2018-03-09-how-do-i-know-if-a-particular-web-site-is-secure-part-1-http-vs-https/</loc>
+    <loc>https://jcjramos.github.io/tags/kubernetes/</loc>
+    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2018-03-06-is-pssword1-more-secure-than-password/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/categories/kubernetes/</loc>
-    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
+    <loc>https://jcjramos.github.io/tags/microservices/</loc>
+    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/microservices/</loc>
-    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/news/</loc>
+    <lastmod>2018-03-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2018-03-01-75/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://jcjramos.github.io/posts/</loc>
-    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/privacy/</loc>
+    <lastmod>2018-03-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/public/</loc>
+    <lastmod>2018-08-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/public-services/</loc>
+    <lastmod>2018-03-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/</loc>
-    <lastmod>2018-12-17T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/ransomware/</loc>
+    <lastmod>2018-08-17T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2018-03-26-read-last-week-everybody-loves-facebook/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/posts/2018-03-05-read-last-wekk/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/posts/2018-10-12-read-last-week-3/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/posts/2018-03-20-read-last-week-2/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/posts/2018-03-12-read-last-week/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/posts/2018-04-30-read-last-week-whois-gdpr/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://jcjramos.github.io/categories/security/</loc>
+    <lastmod>2018-10-12T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/software/</loc>
+    <lastmod>2018-03-26T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -246,19 +301,15 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2018-08-17-165/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://jcjramos.github.io/categories/tips/</loc>
+    <lastmod>2018-03-09T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/vulnerabilities/</loc>
+    <lastmod>2018-08-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ingress on Ramos on Software</title>
+    <link>https://jcjramos.github.io/tags/ingress/</link>
+    <description>Recent content in Ingress on Ramos on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Dec 2018 13:23:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://jcjramos.github.io/tags/ingress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Helm</title>
+      <link>https://jcjramos.github.io/posts/2018-12-19-about-helm/</link>
+      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-12-19-about-helm/</guid>
+      <description>Microservices are supposed to be small and dedicated, the issue when you move an application to a microservices based architecture is that you quickly get many of them. Dealing with each service individually becomes much easier as they get more “micro”, but deal with the whole bunch can be a nightmare. Look at the example bellow, in the 1st interaction of a typical application it became something like this :</description>
+    </item>
+    
+    <item>
+      <title>The Ingress triology</title>
+      <link>https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/</link>
+      <pubDate>Fri, 14 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/</guid>
+      <description>Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details. Docker &amp;amp; Kubernetes were designed with isolation in mind ( they are called containers for a reason ). You need to understand the Ingress triology properlly : Ingress -&amp;gt; Service -&amp;gt; Containers.
+The Container The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver.</description>
+    </item>
+    
+  </channel>
+</rss>

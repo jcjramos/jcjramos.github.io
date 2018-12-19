@@ -6,27 +6,28 @@
     <description>Recent content in Security on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 12 Oct 2018 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/categories/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Read last week</title>
+      <link>https://jcjramos.github.io/posts/2018-10-12-read-last-week-3/</link>
+      <pubDate>Fri, 12 Oct 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-10-12-read-last-week-3/</guid>
+      <description>NotPetya The Untold Story of NotPetya, the Most Devastating Cyberattack in History. Fear At the Open Source Summit, Window Snyder, Chief Security Officer at Intel, explains why fear is not a good motivator for improving cyber-security and provides insight into how to improve software defenses. Security  In today&amp;rsquo;s world, computers are now so omnipresent that there is no longer any such thing as cybersecurity, online security, or computer security – there&amp;rsquo;s only security.</description>
+    </item>
+    
+    <item>
       <title>About Bitcoin, Cryptocurrencies and Cryptomining</title>
       <link>https://jcjramos.github.io/posts/2018-02-27-about-bitcoin-cryptocurrencies-and-cryptomining/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Feb 2018 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/posts/2018-02-27-about-bitcoin-cryptocurrencies-and-cryptomining/</guid>
       <description>The current cryptocurrency trend brings fresh challenges to security, and should be a concern even if you, like me don’t understand where’s the fun of Bitcoin and don’t care much about it.
 Cryptocurrencies were one of the greatest trends in 2017, in particular the crypto “star” Bitcoin that started the year around 1000$ and ended it well above 10000$. Although I really don’t find Bitcoin particularly interesting ( just go elsewhere if you are looking for investment tips – I’m not really good at it ) I think that the concept behind it, Blockchain, has potential and can be useful in a lot of different ways.</description>
-    </item>
-    
-    <item>
-      <title>Read last week</title>
-      <link>https://jcjramos.github.io/posts/2018-10-12-read-last-week-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jcjramos.github.io/posts/2018-10-12-read-last-week-3/</guid>
-      <description>NotPetya The Untold Story of NotPetya, the Most Devastating Cyberattack in History. Fear At the Open Source Summit, Window Snyder, Chief Security Officer at Intel, explains why fear is not a good motivator for improving cyber-security and provides insight into how to improve software defenses. Security  In today&amp;rsquo;s world, computers are now so omnipresent that there is no longer any such thing as cybersecurity, online security, or computer security – there&amp;rsquo;s only security.</description>
     </item>
     
   </channel>
