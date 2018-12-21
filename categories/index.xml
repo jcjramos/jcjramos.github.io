@@ -11,15 +11,6 @@
     
     
     <item>
-      <title>Cryptocurrencies</title>
-      <link>https://jcjramos.github.io/categories/cryptocurrencies/</link>
-      <pubDate>Tue, 27 Feb 2018 13:23:10 +0100</pubDate>
-      
-      <guid>https://jcjramos.github.io/categories/cryptocurrencies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Current Trends</title>
       <link>https://jcjramos.github.io/categories/current-trends/</link>
       <pubDate>Fri, 12 Oct 2018 13:23:10 +0100</pubDate>
@@ -121,7 +112,7 @@
     <item>
       <title>Security</title>
       <link>https://jcjramos.github.io/categories/security/</link>
-      <pubDate>Fri, 12 Oct 2018 13:23:10 +0100</pubDate>
+      <pubDate>Mon, 19 Nov 2018 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/categories/security/</guid>
       <description></description>
@@ -142,6 +133,15 @@
       <pubDate>Fri, 09 Mar 2018 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/categories/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trends</title>
+      <link>https://jcjramos.github.io/categories/trends/</link>
+      <pubDate>Fri, 21 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/categories/trends/</guid>
       <description></description>
     </item>
     

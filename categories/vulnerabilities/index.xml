@@ -41,29 +41,5 @@ There are not many details available, the Hospital claims that “Everything is 
       <description>The short answer is you don’t know … there is no simple ways to check, web infrastructure these days is complex and there is no public reporting of security practices used or even testing reports. The web owner can ( and will if they care about security ) use some kind of vulnerability testing, but it’s actually not nice to test 3rd party sites for vulnerabilities and generally people don’t make these public.</description>
     </item>
     
-    <item>
-      <title>About Spectre &amp; Meltdown</title>
-      <link>https://jcjramos.github.io/posts/2018-02-23-about-spectre-meltdown/</link>
-      <pubDate>Sat, 24 Feb 2018 13:23:10 +0100</pubDate>
-      
-      <guid>https://jcjramos.github.io/posts/2018-02-23-about-spectre-meltdown/</guid>
-      <description>For several reasons Meltdown and Spectre are a very interesting set of vulnerabilities that illustrates well the challenges involved to create secure software applications these days.
-Details &amp;amp; more info in :
-https://meltdownattack.com/
-Some semi random thoughts about it :    Although not so risky as been portrayed in the press, basically both vulnerabilities are related to isolation - means that a potential attacker can use them to get information on the local computing device, not to attack remote systems.</description>
-    </item>
-    
-    <item>
-      <title>About Spectre &amp; Meltdown</title>
-      <link>https://jcjramos.github.io/posts/2018-02-23-about-spectre-meltdown/</link>
-      <pubDate>Sat, 24 Feb 2018 13:23:10 +0100</pubDate>
-      
-      <guid>https://jcjramos.github.io/posts/2018-02-23-about-spectre-meltdown/</guid>
-      <description>For several reasons Meltdown and Spectre are a very interesting set of vulnerabilities that illustrates well the challenges involved to create secure software applications these days.
-Details &amp;amp; more info in :
-https://meltdownattack.com/
-Some semi random thoughts about it :    Although not so risky as been portrayed in the press, basically both vulnerabilities are related to isolation - means that a potential attacker can use them to get information on the local computing device, not to attack remote systems.</description>
-    </item>
-    
   </channel>
 </rss>

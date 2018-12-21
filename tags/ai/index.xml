@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on Ramos on Software</title>
+    <link>https://jcjramos.github.io/tags/ai/</link>
+    <description>Recent content in Ai on Ramos on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Dec 2018 13:23:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://jcjramos.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My favorite BuzzWords for 2018</title>
+      <link>https://jcjramos.github.io/posts/2018-12-21-favorite-buzzwords/</link>
+      <pubDate>Fri, 21 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-12-21-favorite-buzzwords/</guid>
+      <description>Techies love BuzzWords, every year there is new popular technology or concept that everyone talks about, soon these fall in to oblivion and are replaced by new trends. Not all the Buzzwords referrer to completely useless stuff, some concepts really got past the Buzz part and became really useful parts of our lives, but eventually people got tired to discuss them, or they became too common to be interesting ( I guess Blog was a buzzword a few years ago ).</description>
+    </item>
+    
+  </channel>
+</rss>

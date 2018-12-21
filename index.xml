@@ -6,10 +6,19 @@
     <description>Recent content on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Dec 2018 13:23:10 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 21 Dec 2018 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My favorite BuzzWords for 2018</title>
+      <link>https://jcjramos.github.io/posts/2018-12-21-favorite-buzzwords/</link>
+      <pubDate>Fri, 21 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-12-21-favorite-buzzwords/</guid>
+      <description>Techies love BuzzWords, every year there is new popular technology or concept that everyone talks about, soon these fall in to oblivion and are replaced by new trends. Not all the Buzzwords referrer to completely useless stuff, some concepts really got past the Buzz part and became really useful parts of our lives, but eventually people got tired to discuss them, or they became too common to be interesting ( I guess Blog was a buzzword a few years ago ).</description>
+    </item>
     
     <item>
       <title>About Helm</title>
@@ -37,6 +46,16 @@
       <guid>https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/</guid>
       <description>Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details. Docker &amp;amp; Kubernetes were designed with isolation in mind ( they are called containers for a reason ). You need to understand the Ingress triology properlly : Ingress -&amp;gt; Service -&amp;gt; Containers.
 The Container The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver.</description>
+    </item>
+    
+    <item>
+      <title>Developing Secure Applications</title>
+      <link>https://jcjramos.github.io/posts/2018-11-19-develop-secure-appls/</link>
+      <pubDate>Mon, 19 Nov 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-11-19-develop-secure-appls/</guid>
+      <description>Everyday there is a new story about a hacking incident somewhere, developing secure applications is definitely one of the most important challenges in the software world.
+A good analogy is the defence of a castle, in the medieval world castles were very important. In a anarchic world with many threads they were the centres of power and stability. But how to defend a castle from your enemy’s ? a well built castle in a high point was a clear advantage, will a relatively small force it could be defended against a much powerful enemy.</description>
     </item>
     
     <item>
