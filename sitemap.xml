@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jcjramos.github.io/posts/2019-01-04-more-about-helm-values/</loc>
+    <lastmod>2019-01-04T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/posts/2018-12-21-favorite-buzzwords/</loc>
     <lastmod>2018-12-21T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -183,7 +190,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/docker/</loc>
-    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
+    <lastmod>2019-01-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -217,29 +224,36 @@
   </url>
   
   <url>
+    <loc>https://jcjramos.github.io/tags/helm/</loc>
+    <lastmod>2019-01-04T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/tags/ingress/</loc>
-    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
+    <lastmod>2018-12-14T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/tags/kubernetes/</loc>
-    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
+    <lastmod>2019-01-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/tags/microservices/</loc>
-    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
+    <lastmod>2019-01-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/microservices/</loc>
-    <lastmod>2018-12-19T13:23:10+01:00</lastmod>
+    <lastmod>2019-01-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -253,7 +267,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/posts/</loc>
-    <lastmod>2018-12-21T13:23:10+01:00</lastmod>
+    <lastmod>2019-01-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -281,7 +295,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/</loc>
-    <lastmod>2018-12-21T13:23:10+01:00</lastmod>
+    <lastmod>2019-01-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -6,19 +6,10 @@
     <description>Recent content in Ingress on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Dec 2018 13:23:10 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 14 Dec 2018 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/tags/ingress/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About Helm</title>
-      <link>https://jcjramos.github.io/posts/2018-12-19-about-helm/</link>
-      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
-      
-      <guid>https://jcjramos.github.io/posts/2018-12-19-about-helm/</guid>
-      <description>Microservices are supposed to be small and dedicated, the issue when you move an application to a microservices based architecture is that you quickly get many of them. Dealing with each service individually becomes much easier as they get more “micro”, but deal with the whole bunch can be a nightmare. Look at the example bellow, in the 1st interaction of a typical application it became something like this :</description>
-    </item>
     
     <item>
       <title>The Ingress triology</title>

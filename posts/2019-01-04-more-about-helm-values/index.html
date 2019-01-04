@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Ramos on Software  | More About Helm - Values</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.52" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/padlock.png" type="image/x-icon" />
+
+    
+
+    
+
+    <meta property="og:title" content="More About Helm - Values" />
+<meta property="og:description" content="Manage deployments is a import concern when creating a microservices based application, given the typical huge number of services involved and the possible variations you need a way to keep complexity under control. Helm can be a usefull tool, besides been a very cool way to define dependencies ( see this previous post ), Helm introduces an interesting concept called values ( not quite original, but implemented in a nice way )." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jcjramos.github.io/posts/2019-01-04-more-about-helm-values/" /><meta property="article:published_time" content="2019-01-04T13:23:10&#43;01:00"/>
+<meta property="article:modified_time" content="2019-01-04T13:23:10&#43;01:00"/>
+
+<meta itemprop="name" content="More About Helm - Values">
+<meta itemprop="description" content="Manage deployments is a import concern when creating a microservices based application, given the typical huge number of services involved and the possible variations you need a way to keep complexity under control. Helm can be a usefull tool, besides been a very cool way to define dependencies ( see this previous post ), Helm introduces an interesting concept called values ( not quite original, but implemented in a nice way ).">
+
+
+<meta itemprop="datePublished" content="2019-01-04T13:23:10&#43;01:00" />
+<meta itemprop="dateModified" content="2019-01-04T13:23:10&#43;01:00" />
+<meta itemprop="wordCount" content="310">
+
+
+
+<meta itemprop="keywords" content="microservices,kubernetes,docker,helm," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="More About Helm - Values"/>
+<meta name="twitter:description" content="Manage deployments is a import concern when creating a microservices based application, given the typical huge number of services involved and the possible variations you need a way to keep complexity under control. Helm can be a usefull tool, besides been a very cool way to define dependencies ( see this previous post ), Helm introduces an interesting concept called values ( not quite original, but implemented in a nice way )."/>
+
+      
+    
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://jcjramos.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Ramos on Software
+    </a>
+    <div class="flex-l items-center">
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">More About Helm - Values</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-01-04T13:23:10&#43;01:00">January 4, 2019</time>      
+      
+      
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Manage deployments is a import concern when creating a microservices based application, given the typical huge number of services involved and the possible variations you need a way to keep complexity under control.
+Helm can be a usefull tool, besides been a very cool way to define dependencies ( <a href="../2018-12-19-about-helm/">see this previous post</a> ),  Helm introduces an interesting concept called values ( not quite original, but implemented in a nice way ). Values allows you to redefine parts your kubernetes yaml (*) files on deployment time, thus allowing more flexibility to your application and, if done right, simplify the deployment.</p>
+
+<p>Imagine that your application has 2 modes, production and development, this is an obvious candidate to be moved to the values.</p>
+
+<p>The values.yaml is a standard part of the helm chart and always in the root of the new chart.</p>
+
+<p>In the values.yaml you can define :</p>
+
+<pre><code>deployment:
+ mode: DEV 
+</code></pre>
+
+<p>Note that the deployment tag is just a way to organize things, you would put all the configurations related to the deployment part under it.</p>
+
+<p>Then in the actual deployment.yaml, that handles the creation of you POD you can add something like :</p>
+
+<pre><code>      containers:
+		( image &amp; stuff here ) 
+		command: [“myInitScript.sh”,” {{ .Values.deployment.mode }}”
+</code></pre>
+
+<p>This way the deployment mode would be passed to your container init script as a parameter, other common way to handle this is to use an environment variable :</p>
+
+<pre><code>          env:
+          - name: DEPLOYMENT_MODE
+            value: {{ .Values.deployment.mode }}
+</code></pre>
+
+<p>when deploying the application you would call :</p>
+
+<pre><code>helm install -set deployment.mode=PRODUCTION my-chart.tar.gz
+</code></pre>
+
+<p>And your container would be initialized with :</p>
+
+<pre><code>myInitScript.sh PRODUCTION
+</code></pre>
+
+<p>and the DEPLOYMENT_MODE environment variable would be PRODUCTION inside your container. Just change the &ndash;set flag to deploy in a different way !</p>
+
+<p>(*) YAML are basic kubernetes configuration files, these can be used define Kubernetes Pods, and several artefacts related to a Kubernetes Deployment.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/microservices" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">microservices</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/kubernetes" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">kubernetes</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/docker" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">docker</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/helm" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">helm</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/2018-12-19-about-helm/">About Helm</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2018-12-17-not-so-microservices/">About not-so-microservices</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2018-12-14-expose-kubernertes-services/">The Ingress triology</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
+    &copy; 2019 Ramos on Software
+  </a>
+    <div>
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

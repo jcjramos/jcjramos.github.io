@@ -32,16 +32,25 @@
     <item>
       <title>Docker</title>
       <link>https://jcjramos.github.io/tags/docker/</link>
-      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Helm</title>
+      <link>https://jcjramos.github.io/tags/helm/</link>
+      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/tags/helm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ingress</title>
       <link>https://jcjramos.github.io/tags/ingress/</link>
-      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      <pubDate>Fri, 14 Dec 2018 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/tags/ingress/</guid>
       <description></description>
@@ -50,7 +59,7 @@
     <item>
       <title>Kubernetes</title>
       <link>https://jcjramos.github.io/tags/kubernetes/</link>
-      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/tags/kubernetes/</guid>
       <description></description>
@@ -59,7 +68,7 @@
     <item>
       <title>Microservices</title>
       <link>https://jcjramos.github.io/tags/microservices/</link>
-      <pubDate>Wed, 19 Dec 2018 13:23:10 +0100</pubDate>
+      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/tags/microservices/</guid>
       <description></description>
