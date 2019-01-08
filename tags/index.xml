@@ -32,16 +32,34 @@
     <item>
       <title>Docker</title>
       <link>https://jcjramos.github.io/tags/docker/</link>
-      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Elastic</title>
+      <link>https://jcjramos.github.io/tags/elastic/</link>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/tags/elastic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elk</title>
+      <link>https://jcjramos.github.io/tags/elk/</link>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/tags/elk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Helm</title>
       <link>https://jcjramos.github.io/tags/helm/</link>
-      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/tags/helm/</guid>
       <description></description>
@@ -57,9 +75,18 @@
     </item>
     
     <item>
+      <title>Kibana</title>
+      <link>https://jcjramos.github.io/tags/kibana/</link>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/tags/kibana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kubernetes</title>
       <link>https://jcjramos.github.io/tags/kubernetes/</link>
-      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/tags/kubernetes/</guid>
       <description></description>
@@ -68,7 +95,7 @@
     <item>
       <title>Microservices</title>
       <link>https://jcjramos.github.io/tags/microservices/</link>
-      <pubDate>Fri, 04 Jan 2019 13:23:10 +0100</pubDate>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/tags/microservices/</guid>
       <description></description>

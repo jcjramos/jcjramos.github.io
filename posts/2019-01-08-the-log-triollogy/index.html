@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Ramos on Software  | The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.52" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/padlock.png" type="image/x-icon" />
+
+    
+
+    
+
+    <meta property="og:title" content="The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana" />
+<meta property="og:description" content="One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;
+Where is my log ? The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jcjramos.github.io/posts/2019-01-08-the-log-triollogy/" /><meta property="article:published_time" content="2019-01-08T13:23:10&#43;01:00"/>
+<meta property="article:modified_time" content="2019-01-08T13:23:10&#43;01:00"/>
+
+<meta itemprop="name" content="The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana">
+<meta itemprop="description" content="One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;
+Where is my log ? The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service.">
+
+
+<meta itemprop="datePublished" content="2019-01-08T13:23:10&#43;01:00" />
+<meta itemprop="dateModified" content="2019-01-08T13:23:10&#43;01:00" />
+<meta itemprop="wordCount" content="175">
+
+
+
+<meta itemprop="keywords" content="microservices,kubernetes,docker,helm,elk,elastic,kibana," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana"/>
+<meta name="twitter:description" content="One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;
+Where is my log ? The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service."/>
+
+      
+    
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://jcjramos.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Ramos on Software
+    </a>
+    <div class="flex-l items-center">
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-01-08T13:23:10&#43;01:00">January 8, 2019</time>      
+      
+      
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<p>One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;</p>
+
+<h2 id="where-is-my-log">Where is my log ?</h2>
+
+<p>The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service. The solution is to add a log management application, something to store your logs and to allow you to search through them.</p>
+
+<p>A nice solution is to use the ELK stack, basically 3 components :</p>
+
+<ol>
+<li>Logstash, Collects and transforms</li>
+<li>Elasticsearch, Search and Analize</li>
+<li>Kibana, Vizualize and manage</li>
+</ol>
+
+<p>The ELK deployment in a kubernetes cluster is quite straightforward, definitely the added value it brings worth’s the investment.</p>
+
+<p>Note1 : As a bonus elastic comes with a REST API that you can use to integrate with your own application.</p>
+
+<p>Note2: <a href="https://www.elastic.co/">More info here.</a></p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/microservices" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">microservices</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/kubernetes" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">kubernetes</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/docker" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">docker</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/helm" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">helm</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/elk" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">elk</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/elastic" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">elastic</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/kibana" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">kibana</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/2019-01-04-more-about-helm-values/">More About Helm - Values</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2018-12-19-about-helm/">About Helm</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2018-12-17-not-so-microservices/">About not-so-microservices</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2018-12-14-expose-kubernertes-services/">The Ingress triology</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
+    &copy; 2019 Ramos on Software
+  </a>
+    <div>
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

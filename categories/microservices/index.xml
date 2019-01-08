@@ -6,10 +6,20 @@
     <description>Recent content in Microservices on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Jan 2019 13:23:10 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jan 2019 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/categories/microservices/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana</title>
+      <link>https://jcjramos.github.io/posts/2019-01-08-the-log-triollogy/</link>
+      <pubDate>Tue, 08 Jan 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2019-01-08-the-log-triollogy/</guid>
+      <description>One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &amp;hellip;
+Where is my log ? The number of different services &amp;amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service.</description>
+    </item>
     
     <item>
       <title>More About Helm - Values</title>
