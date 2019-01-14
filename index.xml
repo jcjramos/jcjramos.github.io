@@ -49,6 +49,15 @@ Where is my log ? The number of different services &amp;amp; service instances r
     </item>
     
     <item>
+      <title>Telco Software : Virtualization vs Cloudification</title>
+      <link>https://jcjramos.github.io/posts/2018-12-18-telco-software-virtualization-vs-cloudification/</link>
+      <pubDate>Tue, 18 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-12-18-telco-software-virtualization-vs-cloudification/</guid>
+      <description>Today I came across this very interesting article on The Economist regarding “Cloudification will mean upheaval in telecoms”, it’s kind of “old news” but make me think about the current trends in telco software development. From my experience telco industry was fast to virtualize but slot to cloudify. Virtualization and cloudification are often used with the same meaning but they are actually different concepts. Virtualization is mostly related to the optimization of hardware resources, running more software on a given amount of physical infrastructure.</description>
+    </item>
+    
+    <item>
       <title>About not-so-microservices</title>
       <link>https://jcjramos.github.io/posts/2018-12-17-not-so-microservices/</link>
       <pubDate>Mon, 17 Dec 2018 13:23:10 +0100</pubDate>

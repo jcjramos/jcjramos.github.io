@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud on Ramos on Software</title>
+    <link>https://jcjramos.github.io/tags/cloud/</link>
+    <description>Recent content in Cloud on Ramos on Software</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 13:23:10 +0100</lastBuildDate>
+    
+	<atom:link href="https://jcjramos.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Telco Software : Virtualization vs Cloudification</title>
+      <link>https://jcjramos.github.io/posts/2018-12-18-telco-software-virtualization-vs-cloudification/</link>
+      <pubDate>Tue, 18 Dec 2018 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2018-12-18-telco-software-virtualization-vs-cloudification/</guid>
+      <description>Today I came across this very interesting article on The Economist regarding “Cloudification will mean upheaval in telecoms”, it’s kind of “old news” but make me think about the current trends in telco software development. From my experience telco industry was fast to virtualize but slot to cloudify. Virtualization and cloudification are often used with the same meaning but they are actually different concepts. Virtualization is mostly related to the optimization of hardware resources, running more software on a given amount of physical infrastructure.</description>
+    </item>
+    
+  </channel>
+</rss>
