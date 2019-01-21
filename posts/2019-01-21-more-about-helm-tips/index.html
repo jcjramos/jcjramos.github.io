@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Ramos on Software  | More About Helm - Tips</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.52" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.955516233bcafa4d2a1c13cea63c7b50.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+<link rel="shortcut icon" href="/images/padlock.png" type="image/x-icon" />
+
+    
+
+    
+
+    <meta property="og:title" content="More About Helm - Tips" />
+<meta property="og:description" content="Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
+Btw, you migth like to see this previous post and eventually this one
+Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jcjramos.github.io/posts/2019-01-21-more-about-helm-tips/" /><meta property="article:published_time" content="2019-01-21T13:23:10&#43;01:00"/>
+<meta property="article:modified_time" content="2019-01-21T13:23:10&#43;01:00"/>
+
+<meta itemprop="name" content="More About Helm - Tips">
+<meta itemprop="description" content="Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
+Btw, you migth like to see this previous post and eventually this one
+Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation.">
+
+
+<meta itemprop="datePublished" content="2019-01-21T13:23:10&#43;01:00" />
+<meta itemprop="dateModified" content="2019-01-21T13:23:10&#43;01:00" />
+<meta itemprop="wordCount" content="276">
+
+
+
+<meta itemprop="keywords" content="microservices,kubernetes,docker,helm," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="More About Helm - Tips"/>
+<meta name="twitter:description" content="Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
+Btw, you migth like to see this previous post and eventually this one
+Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation."/>
+
+      
+    
+  </head>
+
+  <body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://jcjramos.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Ramos on Software
+    </a>
+    <div class="flex-l items-center">
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3 ph0-l">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">More About Helm - Tips</h1>
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-01-21T13:23:10&#43;01:00">January 21, 2019</time>      
+      
+      
+    </header>
+
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+
+<p>Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.</p>
+
+<p>Btw, you migth like to see <a href="../2018-12-19-about-helm/">this previous post</a> and eventually <a href="../2019-01-04-more-about-helm-values/">this one</a></p>
+
+<h2 id="tip-1-files-in-configmaps">Tip 1 – Files in configmaps</h2>
+
+<p>There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation.
+A more practical solution is to use helm .Files.Glob command. This command will map the content of files in a specific directory to your config map.</p>
+
+<p>Imagine you have 2 xml files, for example defining log4j options – alog.xml and blog.xml in the config directory.
+To map them to a config map you would simply :</p>
+
+<pre><code>apiVersion: v1
+kind: ConfigMap
+metadata:
+(metadata here...)
+{{ (.Files.Glob &quot;config/*&quot;).AsConfig | indent 2 }}
+</code></pre>
+
+<p>And that’s it !</p>
+
+<h2 id="tip-2-wait-for-service">Tip 2 – Wait for service</h2>
+
+<p>Container based services should be resilient and well behaved, thus when service A depends on B, A should handle properly the case B is not available – but not all services are well behaved and sometimes is not praticall to change them. A work around solution is to handle availability  in the heml chart. This can be done using a init container.</p>
+
+<pre><code>      initContainers:
+      - name: wait-for-service-b
+        image: any-basic-image-with-curl-avilable
+        command:
+         - /bin/sh
+         - -c
+         - &gt;
+           set -x;
+           until $(curl --output /dev/null --silent --head --fail service-b-name); do
+                sleep 10
+           done         
+</code></pre>
+
+<p>In this case the init container would keep “curling” service b until it is available and one then container A would be started.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/microservices" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">microservices</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/kubernetes" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">kubernetes</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/docker" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">docker</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/helm" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">helm</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+        
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/2019-01-08-the-log-triollogy/">The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2019-01-04-more-about-helm-values/">More About Helm - Values</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2018-12-19-about-helm/">About Helm</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2018-12-17-not-so-microservices/">About not-so-microservices</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/2018-12-14-expose-kubernertes-services/">The Ingress triology</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
+    &copy; 2019 Ramos on Software
+  </a>
+    <div>
+<div hidden>
+  <span id="new-window-0">Opens in a new window</span>
+  <span id="new-window-1">Opens an external site</span>
+  <span id="new-window-2">Opens an external site in a new window</span>
+</div>
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

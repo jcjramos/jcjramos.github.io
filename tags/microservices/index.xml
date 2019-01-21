@@ -6,10 +6,21 @@
     <description>Recent content in Microservices on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Jan 2019 13:23:10 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jan 2019 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>More About Helm - Tips</title>
+      <link>https://jcjramos.github.io/posts/2019-01-21-more-about-helm-tips/</link>
+      <pubDate>Mon, 21 Jan 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2019-01-21-more-about-helm-tips/</guid>
+      <description>Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
+Btw, you migth like to see this previous post and eventually this one
+Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation.</description>
+    </item>
     
     <item>
       <title>The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana</title>
