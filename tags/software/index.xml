@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Ramos on Software</title>
-    <link>https://jcjramos.github.io/categories/software/</link>
+    <link>https://jcjramos.github.io/tags/software/</link>
     <description>Recent content in Software on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Feb 2019 13:23:10 +0100</lastBuildDate>
     
-	<atom:link href="https://jcjramos.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jcjramos.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019/</guid>
       <description>A recent problem that one of the teams I work with faced, related to a major DB vendor and a set of different incompatible patches remind me of the 90’s. During the late 90’s I’ve worked for a Windows shop that developed a huge DLL based application, taking care of dependencies was a nightmare…early MS win 95 versions didn’t include any good mechanism to track DLL versions, also initially this was not a major concern when developing our application, but we end up creating a lot of DLLs and with additional dependencies from SO and 3rd party DLL’s, so I know fist hand what “DLL hell” means.</description>
-    </item>
-    
-    <item>
-      <title>DST and Software</title>
-      <link>https://jcjramos.github.io/posts/2018-03-26-dst-and-software/</link>
-      <pubDate>Mon, 26 Mar 2018 13:23:10 +0100</pubDate>
-      
-      <guid>https://jcjramos.github.io/posts/2018-03-26-dst-and-software/</guid>
-      <description>Last weekend was a 47 hour oddity; across Europe it is like this every last weekend of March due to the annual DST change to “Summer Hour”. It is annoying but I know if could be worse, at least these changes are unified and regulated, thus all the counties that are part of the EU &amp;ldquo;unified clock regime&amp;rdquo; make the change in the same day.
-These changes tend to remind me of years ago when I’ve worked in a software that processed Television audiences, what to do with the GAP when the clock jumps from SAT 1:00 AM to SAT 2:00 AM ?</description>
     </item>
     
   </channel>

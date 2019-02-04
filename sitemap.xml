@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019/</loc>
+    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/posts/2019-01-21-more-about-helm-tips/</loc>
     <lastmod>2019-01-21T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -204,14 +211,14 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/cloud/</loc>
+    <loc>https://jcjramos.github.io/tags/cloud/</loc>
     <lastmod>2018-12-18T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/tags/cloud/</loc>
+    <loc>https://jcjramos.github.io/categories/cloud/</loc>
     <lastmod>2018-12-18T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -308,14 +315,14 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/microservices/</loc>
+    <loc>https://jcjramos.github.io/tags/microservices/</loc>
     <lastmod>2019-01-21T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/tags/microservices/</loc>
+    <loc>https://jcjramos.github.io/categories/microservices/</loc>
     <lastmod>2019-01-21T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -330,7 +337,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/posts/</loc>
-    <lastmod>2019-01-21T13:23:10+01:00</lastmod>
+    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -358,7 +365,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/</loc>
-    <lastmod>2019-01-21T13:23:10+01:00</lastmod>
+    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -371,13 +378,6 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/security/</loc>
-    <lastmod>2018-11-19T13:23:10+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jcjramos.github.io/tags/security/</loc>
     <lastmod>2018-11-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -385,8 +385,22 @@
   </url>
   
   <url>
+    <loc>https://jcjramos.github.io/categories/security/</loc>
+    <lastmod>2018-11-19T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/tags/software/</loc>
+    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/categories/software/</loc>
-    <lastmod>2018-03-26T13:23:10+01:00</lastmod>
+    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -434,15 +448,15 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/vulnerabilities/</loc>
-    <lastmod>2018-08-24T13:23:10+01:00</lastmod>
+    <loc>https://jcjramos.github.io/tags/vulnerabilities/</loc>
+    <lastmod>2018-02-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/tags/vulnerabilities/</loc>
-    <lastmod>2018-02-27T13:23:10+01:00</lastmod>
+    <loc>https://jcjramos.github.io/categories/vulnerabilities/</loc>
+    <lastmod>2018-08-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
