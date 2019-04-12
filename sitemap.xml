@@ -3,7 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019/</loc>
+    <loc>https://jcjramos.github.io/posts/2019-04-12-ruminations_about_programming_languages/</loc>
+    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019-copy/</loc>
     <lastmod>2019-02-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -68,6 +75,13 @@
   <url>
     <loc>https://jcjramos.github.io/posts/2018-11-19-develop-secure-appls/</loc>
     <lastmod>2018-11-19T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2018-11-01-22-years-online/</loc>
+    <lastmod>2018-11-11T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -301,6 +315,13 @@
   </url>
   
   <url>
+    <loc>https://jcjramos.github.io/tags/java/</loc>
+    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/tags/kibana/</loc>
     <lastmod>2019-01-08T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -336,8 +357,22 @@
   </url>
   
   <url>
+    <loc>https://jcjramos.github.io/tags/personal/</loc>
+    <lastmod>2018-11-11T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/categories/personal/</loc>
+    <lastmod>2018-11-11T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/posts/</loc>
-    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
+    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -365,7 +400,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/</loc>
-    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
+    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -393,14 +428,14 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/software/</loc>
-    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
+    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/software/</loc>
-    <lastmod>2019-02-04T13:23:10+01:00</lastmod>
+    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

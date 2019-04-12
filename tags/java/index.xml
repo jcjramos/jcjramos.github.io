@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software on Ramos on Software</title>
-    <link>https://jcjramos.github.io/tags/software/</link>
-    <description>Recent content in Software on Ramos on Software</description>
+    <title>Java on Ramos on Software</title>
+    <link>https://jcjramos.github.io/tags/java/</link>
+    <description>Recent content in Java on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Apr 2019 13:23:10 +0100</lastBuildDate>
     
-	<atom:link href="https://jcjramos.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jcjramos.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://jcjramos.github.io/posts/2019-04-12-ruminations_about_programming_languages/</guid>
       <description>Today I’ve come across a post in Quora about the “end of Java”, kind of funny these doomsday predictions regarding programming languages.
 I’ve starting to learn programming somewhere around the late 80’s when I was a kid, at the time I’ve learn basic … it was the most common language for kids who owned “PC’s” with 48k of memory. Basic programs tended to be quite difficult to read and one thing that you learn from experience ( sometimes the hard way ) is that it is generally much difficult to maintain and evolve computer software than to initially write it, thus putting effort in to make it clean and adaptable pays off.</description>
-    </item>
-    
-    <item>
-      <title>Dependency Hell v2019 </title>
-      <link>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019-copy/</link>
-      <pubDate>Mon, 04 Feb 2019 13:23:10 +0100</pubDate>
-      
-      <guid>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019-copy/</guid>
-      <description>A recent problem that one of the teams I work with faced, related to a major DB vendor and a set of different incompatible patches remind me of the 90’s. During the late 90’s I’ve worked for a Windows shop that developed a huge DLL based application, taking care of dependencies was a nightmare…early MS win 95 versions didn’t include any good mechanism to track DLL versions, also initially this was not a major concern when developing our application, but we end up creating a lot of DLLs and with additional dependencies from SO and 3rd party DLL’s, so I know fist hand what “DLL hell” means.</description>
     </item>
     
   </channel>
