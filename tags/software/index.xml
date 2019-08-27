@@ -6,10 +6,20 @@
     <description>Recent content in Software on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Apr 2019 13:23:10 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2019 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Continuous Everything</title>
+      <link>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</link>
+      <pubDate>Tue, 27 Aug 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</guid>
+      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD ( Continuous Integration/Continuous Delivery) pipelines in software development.
+At the time I’ve came across “Joel Test” I’ve tried to create a simple build script that would emulate a kind of basic CI pipe – at the time I was working on a application composed of a set of components based on Win32 DLL’s+EXE; my CI script would compile the necessary DLL’s, join them in a directory and check if it run.</description>
+    </item>
     
     <item>
       <title>Ruminations about programming languages </title>
@@ -23,10 +33,10 @@ I’ve starting to learn programming somewhere around the late 80’s when I was
     
     <item>
       <title>Dependency Hell v2019 </title>
-      <link>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019-copy/</link>
+      <link>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019/</link>
       <pubDate>Mon, 04 Feb 2019 13:23:10 +0100</pubDate>
       
-      <guid>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019-copy/</guid>
+      <guid>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019/</guid>
       <description>A recent problem that one of the teams I work with faced, related to a major DB vendor and a set of different incompatible patches remind me of the 90’s. During the late 90’s I’ve worked for a Windows shop that developed a huge DLL based application, taking care of dependencies was a nightmare…early MS win 95 versions didn’t include any good mechanism to track DLL versions, also initially this was not a major concern when developing our application, but we end up creating a lot of DLLs and with additional dependencies from SO and 3rd party DLL’s, so I know fist hand what “DLL hell” means.</description>
     </item>
     

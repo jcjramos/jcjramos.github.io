@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</loc>
+    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/posts/2019-04-12-ruminations_about_programming_languages/</loc>
     <lastmod>2019-04-12T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,7 +17,7 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019-copy/</loc>
+    <loc>https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019/</loc>
     <lastmod>2019-02-04T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -225,6 +232,13 @@
   </url>
   
   <url>
+    <loc>https://jcjramos.github.io/tags/cicd/</loc>
+    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/tags/cloud/</loc>
     <lastmod>2018-12-18T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -372,7 +386,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/posts/</loc>
-    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
+    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -400,7 +414,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/</loc>
-    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
+    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -428,14 +442,14 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/software/</loc>
-    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
+    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/categories/software/</loc>
-    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
+    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
