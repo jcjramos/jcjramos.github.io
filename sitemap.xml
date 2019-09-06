@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://jcjramos.github.io/posts/2019-09-06-telco-ml-p1/</loc>
+    <lastmod>2019-09-06T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</loc>
     <lastmod>2019-08-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -206,7 +213,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/ai/</loc>
-    <lastmod>2018-12-21T13:23:10+01:00</lastmod>
+    <lastmod>2019-09-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -240,13 +247,6 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/cloud/</loc>
-    <lastmod>2018-12-18T13:23:10+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://jcjramos.github.io/categories/cloud/</loc>
     <lastmod>2018-12-18T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -330,7 +330,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/java/</loc>
-    <lastmod>2019-04-12T13:23:10+01:00</lastmod>
+    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -386,7 +386,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/posts/</loc>
-    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
+    <lastmod>2019-09-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -414,7 +414,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/</loc>
-    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
+    <lastmod>2019-09-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -442,7 +442,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/software/</loc>
-    <lastmod>2019-08-27T13:23:10+01:00</lastmod>
+    <lastmod>2019-09-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -456,14 +456,21 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/</loc>
-    <lastmod>2018-12-21T13:23:10+01:00</lastmod>
+    <lastmod>2019-09-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/tags/telco/</loc>
-    <lastmod>2018-12-21T13:23:10+01:00</lastmod>
+    <lastmod>2019-09-06T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/categories/telco/</loc>
+    <lastmod>2019-09-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

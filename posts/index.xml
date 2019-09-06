@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Aug 2019 13:23:10 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2019 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Telco ML</title>
+      <link>https://jcjramos.github.io/posts/2019-09-06-telco-ml-p1/</link>
+      <pubDate>Fri, 06 Sep 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2019-09-06-telco-ml-p1/</guid>
+      <description>While having some training on machine learning, I’ve been thinking in how it could be applied to telco software.
+There is a huge array of equipment necessary to enable you to use your mobile phone with minimal issues, your operator has lots of radio equipment spread around that enables your phone to communicate with the network and a core network that enables the data to travel around ( this is of course a huge simplification ).</description>
+    </item>
     
     <item>
       <title>Continuous Everything</title>
@@ -17,8 +27,8 @@
       <pubDate>Tue, 27 Aug 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</guid>
-      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD ( Continuous Integration/Continuous Delivery) pipelines in software development.
-At the time I’ve came across “Joel Test” I’ve tried to create a simple build script that would emulate a kind of basic CI pipe – at the time I was working on a application composed of a set of components based on Win32 DLL’s+EXE; my CI script would compile the necessary DLL’s, join them in a directory and check if it run.</description>
+      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD - Continuous Integration / Continuous Delivery pipelines in software development.
+At the time I’ve came across “Joel Test”, found that comply with rule number 2 migth be a good thing and I’ve tried to create a simple build script that would emulate a kind of basic CI pipe – at the time I was working on a application composed of a set of components based on Win32 DLL’s+EXE; my CI script would compile the necessary DLL’s, join them in a directory and check if it run.</description>
     </item>
     
     <item>

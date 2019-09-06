@@ -17,8 +17,8 @@
       <pubDate>Tue, 27 Aug 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</guid>
-      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD ( Continuous Integration/Continuous Delivery) pipelines in software development.
-At the time I’ve came across “Joel Test” I’ve tried to create a simple build script that would emulate a kind of basic CI pipe – at the time I was working on a application composed of a set of components based on Win32 DLL’s+EXE; my CI script would compile the necessary DLL’s, join them in a directory and check if it run.</description>
+      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD - Continuous Integration / Continuous Delivery pipelines in software development.
+At the time I’ve came across “Joel Test”, found that comply with rule number 2 migth be a good thing and I’ve tried to create a simple build script that would emulate a kind of basic CI pipe – at the time I was working on a application composed of a set of components based on Win32 DLL’s+EXE; my CI script would compile the necessary DLL’s, join them in a directory and check if it run.</description>
     </item>
     
     <item>
