@@ -364,14 +364,14 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/microservices/</loc>
+    <loc>https://jcjramos.github.io/tags/microservices/</loc>
     <lastmod>2019-01-21T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/tags/microservices/</loc>
+    <loc>https://jcjramos.github.io/categories/microservices/</loc>
     <lastmod>2019-01-21T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -385,14 +385,14 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/personal/</loc>
+    <loc>https://jcjramos.github.io/tags/personal/</loc>
     <lastmod>2018-11-11T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/tags/personal/</loc>
+    <loc>https://jcjramos.github.io/categories/personal/</loc>
     <lastmod>2018-11-11T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -441,13 +441,6 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/security/</loc>
-    <lastmod>2018-11-19T13:23:10+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://jcjramos.github.io/tags/security/</loc>
     <lastmod>2018-11-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -455,14 +448,21 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/software/</loc>
-    <lastmod>2019-11-30T13:23:10+01:00</lastmod>
+    <loc>https://jcjramos.github.io/categories/security/</loc>
+    <lastmod>2018-11-19T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jcjramos.github.io/tags/software/</loc>
+    <lastmod>2019-11-30T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/categories/software/</loc>
     <lastmod>2019-11-30T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -476,14 +476,14 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/telco/</loc>
+    <loc>https://jcjramos.github.io/tags/telco/</loc>
     <lastmod>2019-09-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/tags/telco/</loc>
+    <loc>https://jcjramos.github.io/categories/telco/</loc>
     <lastmod>2019-09-06T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
@@ -518,15 +518,15 @@
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/categories/vulnerabilities/</loc>
-    <lastmod>2018-08-24T13:23:10+01:00</lastmod>
+    <loc>https://jcjramos.github.io/tags/vulnerabilities/</loc>
+    <lastmod>2018-02-27T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jcjramos.github.io/tags/vulnerabilities/</loc>
-    <lastmod>2018-02-27T13:23:10+01:00</lastmod>
+    <loc>https://jcjramos.github.io/categories/vulnerabilities/</loc>
+    <lastmod>2018-08-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
