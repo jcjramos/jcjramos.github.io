@@ -3,7 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jcjramos.github.io/posts/2019-11-30-its-all-about-the-people/</loc>
+    <loc>https://jcjramos.github.io/posts/2019-12-14-the-subtle-art-of-saying-no/</loc>
+    <lastmod>2019-12-24T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/posts/2019-11-30-its-all-about-the-people-copy/</loc>
     <lastmod>2019-11-30T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -220,7 +227,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/agile/</loc>
-    <lastmod>2019-11-30T13:23:10+01:00</lastmod>
+    <lastmod>2019-12-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -400,7 +407,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/posts/</loc>
-    <lastmod>2019-11-30T13:23:10+01:00</lastmod>
+    <lastmod>2019-12-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -408,6 +415,13 @@
   <url>
     <loc>https://jcjramos.github.io/categories/privacy/</loc>
     <lastmod>2018-03-06T13:23:10+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jcjramos.github.io/categories/product/</loc>
+    <lastmod>2019-12-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -428,7 +442,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/</loc>
-    <lastmod>2019-11-30T13:23:10+01:00</lastmod>
+    <lastmod>2019-12-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -456,7 +470,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/software/</loc>
-    <lastmod>2019-11-30T13:23:10+01:00</lastmod>
+    <lastmod>2019-12-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
@@ -470,7 +484,7 @@
   
   <url>
     <loc>https://jcjramos.github.io/tags/</loc>
-    <lastmod>2019-11-30T13:23:10+01:00</lastmod>
+    <lastmod>2019-12-24T13:23:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>

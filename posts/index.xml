@@ -6,17 +6,28 @@
     <description>Recent content in Posts on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Nov 2019 13:23:10 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 24 Dec 2019 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>The subtle art of saying no</title>
+      <link>https://jcjramos.github.io/posts/2019-12-14-the-subtle-art-of-saying-no/</link>
+      <pubDate>Tue, 24 Dec 2019 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2019-12-14-the-subtle-art-of-saying-no/</guid>
+      <description>I’ve been wondering a lot about the importance of saying no recently:
+ Personally I’ve been trying to focus on important things and say no to other stuff that ends up consuming a lot of energy but is not that relevant.
+ Professionally as a Product Owner I got to say no a lot ! actually I think the art to say no is one of the most important characteristics of a good PO.</description>
+    </item>
+    
+    <item>
       <title>In the end it&#39;s all about the people</title>
-      <link>https://jcjramos.github.io/posts/2019-11-30-its-all-about-the-people/</link>
+      <link>https://jcjramos.github.io/posts/2019-11-30-its-all-about-the-people-copy/</link>
       <pubDate>Sat, 30 Nov 2019 13:23:10 +0100</pubDate>
       
-      <guid>https://jcjramos.github.io/posts/2019-11-30-its-all-about-the-people/</guid>
+      <guid>https://jcjramos.github.io/posts/2019-11-30-its-all-about-the-people-copy/</guid>
       <description>I really like this article I’ve read in Increment The epistemology of software quality
 Say you run a new team. You have carte blanche to implement any policies you want to make the team more productive and the code less buggy. What do you do? You could choose a new programming language, or switch everything to microservices, or follow the hottest trend in process. Or you could do things that matter.</description>
     </item>
