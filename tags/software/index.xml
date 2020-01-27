@@ -6,17 +6,27 @@
     <description>Recent content in Software on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Dec 2019 13:23:10 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jan 2020 13:23:10 +0100</lastBuildDate>
     
 	<atom:link href="https://jcjramos.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Docker in 6 minutes</title>
+      <link>https://jcjramos.github.io/posts/2020-01-27-docker-in-6-minutes/</link>
+      <pubDate>Mon, 27 Jan 2020 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2020-01-27-docker-in-6-minutes/</guid>
+      <description>Trying to make some sense of docker for non-technical people. Do you think it is more expensive to send a container full of goods from Lisbon to China or a plane ticket that allows one of you to go to from Lisbon to China? Actually it is roughly the same, the prices vary but on average the costs are around 1200 €.
+It is surprising that it is relatively cheap to transport such a huge container full of goods.</description>
+    </item>
+    
+    <item>
       <title>The subtle art of saying no</title>
-      <link>https://jcjramos.github.io/posts/2019-12-14-the-subtle-art-of-saying-no/</link>
+      <link>https://jcjramos.github.io/posts/2019-12-14-the-subtle-art-of-saying-no-copy/</link>
       <pubDate>Tue, 24 Dec 2019 13:23:10 +0100</pubDate>
       
-      <guid>https://jcjramos.github.io/posts/2019-12-14-the-subtle-art-of-saying-no/</guid>
+      <guid>https://jcjramos.github.io/posts/2019-12-14-the-subtle-art-of-saying-no-copy/</guid>
       <description>I’ve been wondering a lot about the importance of saying no recently:
  Personally I’ve been trying to focus on important things and say no to other stuff that ends up consuming a lot of energy but is not that relevant.
  Professionally as a Product Owner I got to say no a lot ! actually I think the art to say no is one of the most important characteristics of a good PO.</description>
