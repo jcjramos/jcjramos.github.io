@@ -9,10 +9,10 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.52" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
 
     
@@ -34,17 +34,15 @@
 <meta property="og:description" content="Trying to make some sense of docker for non-technical people. Do you think it is more expensive to send a container full of goods from Lisbon to China or a plane ticket that allows one of you to go to from Lisbon to China? Actually it is roughly the same, the prices vary but on average the costs are around 1200 €.
 It is surprising that it is relatively cheap to transport such a huge container full of goods." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jcjramos.github.io/posts/2020-01-27-docker-in-6-minutes/" /><meta property="article:published_time" content="2020-01-27T13:23:10&#43;01:00"/>
-<meta property="article:modified_time" content="2020-01-27T13:23:10&#43;01:00"/>
-
+<meta property="og:url" content="https://jcjramos.github.io/posts/2020-01-27-docker-in-6-minutes/" />
+<meta property="article:published_time" content="2020-01-27T13:23:10+01:00" />
+<meta property="article:modified_time" content="2020-01-27T13:23:10+01:00" />
 <meta itemprop="name" content="Docker in 6 minutes">
 <meta itemprop="description" content="Trying to make some sense of docker for non-technical people. Do you think it is more expensive to send a container full of goods from Lisbon to China or a plane ticket that allows one of you to go to from Lisbon to China? Actually it is roughly the same, the prices vary but on average the costs are around 1200 €.
 It is surprising that it is relatively cheap to transport such a huge container full of goods.">
-
-
-<meta itemprop="datePublished" content="2020-01-27T13:23:10&#43;01:00" />
-<meta itemprop="dateModified" content="2020-01-27T13:23:10&#43;01:00" />
-<meta itemprop="wordCount" content="846">
+<meta itemprop="datePublished" content="2020-01-27T13:23:10+01:00" />
+<meta itemprop="dateModified" content="2020-01-27T13:23:10+01:00" />
+<meta itemprop="wordCount" content="847">
 
 
 
@@ -54,11 +52,9 @@ It is surprising that it is relatively cheap to transport such a huge container 
 <meta name="twitter:description" content="Trying to make some sense of docker for non-technical people. Do you think it is more expensive to send a container full of goods from Lisbon to China or a plane ticket that allows one of you to go to from Lisbon to China? Actually it is roughly the same, the prices vary but on average the costs are around 1200 €.
 It is surprising that it is relatively cheap to transport such a huge container full of goods."/>
 
-      
-    
   </head>
 
-  <body class="ma0 avenir bg-near-white production">
+  <body class="ma0 avenir bg-near-white">
 
     
    
@@ -136,41 +132,23 @@ It is surprising that it is relatively cheap to transport such a huge container 
       
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<h2 id="trying-to-make-some-sense-of-docker-for-non-technical-people">Trying to make some sense  of docker for non-technical people.</h2>
-
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="trying-to-make-some-sense--of-docker-for-non-technical-people">Trying to make some sense  of docker for non-technical people.</h2>
 <p>Do you think it is more expensive to send a container full of goods from Lisbon to China or a plane ticket that allows one of you to go to from Lisbon to China? Actually it is roughly the same, the prices vary but on average the costs are around 1200 €.</p>
-
 <p>It is surprising that it is relatively cheap to transport such a huge container full of goods. More surprising to think that  despite all our innovations in transport, the item that really enabled globalization and allows to have todays supermarkets full of things from around the world at relatively low prices is a humble standard metal box more or less with 13mx3mx3m which allowed to lower transport costs in such a way that our supermarkets can full of products from all over the world at relatively low prices - to get an idea the cost of transport weighs on average less than 1% in the final cost of a product.</p>
-
 <p>Containers are a good analogy for a small revolution that we have seen in the Software industry in recent years.</p>
-
 <p>Let me tell you a story, imagine BeBola (1): a small startup that sells “Bolas de  Berlin” (2). Like any company in the 21st century they decide to create a website that allows customers to place orders.</p>
-
 <p>The site like any software service must run on a computer somewhere, Bebola&rsquo;s first approach is to buy a server and connect it at the office.</p>
-
 <p>They soon realize that this is not a very good idea, on the one hand the electricity consumption is high, one day the cleaning lady disconnects the cable from the computer to connect a vacuum cleaner and the site is down. No orders that day.</p>
-
 <p>Bebola people decide that it is better to hire a hosting service, but they soon realize that they also have their problems. On the one hand, the costs are high, in the meantime the summer arrives and everyone likes to eat “bolas de berlim” on the beach, there are so many accesses that the site is constantly down, no orders again during the peak season !</p>
-
 <p>Meanwhile at Bebola they heard about a new technique called virtualization, in which virtual machines are used to simulate physical environments. These can be contracted from cloud services like AWS with friendly costs (because the hardware is shared), with the advantage that they are relatively easy to scale; Bebola&rsquo;s website changes to AWS, now during the summer they rent more servers and everything works.</p>
-
 <p>But, to allow several server instances the software got more complex. Additionally they added much more functionality and maintenance starts to be a problem. Complexity grows not only in the site itself but also with integrations with payment systems, a mobile version, there are also recurring security problems in operating systems that want constant updates.</p>
-
 <p>The favorite excuse of software developers was common in Bebola those days - the famous phrase that even those who are not connected to the software must have heard  somewhere “it works on my machine”. In reality the differences between the development environment and the end brought constant problems in the updates.</p>
-
 <p>What was the solution? at Bebola they heard about Docker and decided to give it a try. They splited the functionalty in containers acording to the micro services architecture. Each container included the necessary software to perform is function on the website, but also with the dependencies and configurations necessary to run. This way it that can be moved quickly between development and production environments without side effects. In addition, the micro-service architecture required to use Docker makes integrations with other services such as payment systems much simpler.
 Other advantage is that containers tend to be small, at least smaller than virtual machines as they only package the libraries that are necessary for them to run.  Thus the costs are lower in cloud environments where costs tend to be related to the size of the deployment.</p>
-
 <p>Briefly, a container is a way to package a software service and all its libraries and other facilities in an easy way to transport. Docker is a technology that allows you to create, store and distribute applications in containers - in the same way that a physical dock is optimized to move containers from one side to the other.</p>
-
 <p>In the shipbuilding industry, before the introduction of standardized containers a ship took on average 2 weeks to navigate from New York to Lisbon and then 2 weeks to load / unload . Today a super container carrier needs only a few hours in the most efficient ports. The expectation is that the use of Docker and containers will bring efficiency gains similar to the software industry.</p>
-
-<p><em>Note : If you are curious about how physical containers changes the global commerce ecosystem check <a href="https://www.bbc.co.uk/programmes/p04g1ddh">this documentary on the BBC</a>.</em></p>
-
+<p><em>Note : If you are curious about how physical containers changes the global commerce ecosystem check [this documentary on the BBC] (<a href="https://www.bbc.co.uk/programmes/p04g1ddh)">https://www.bbc.co.uk/programmes/p04g1ddh)</a>.</em></p>
 <p><em>(1) Imaginary name</em></p>
-
 <p><em>(2) <a href="https://pt.wikipedia.org/wiki/Bola_de_berlim">Bolas de Berlin</a> is a Kind of a Doughnut, the   Portuguese version of a Berliner very popular in beaches during the summer.</em></p>
 <ul class="pa0">
   
@@ -256,7 +234,7 @@ Other advantage is that containers tend to be small, at least smaller than virtu
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
-    &copy; 2020 Ramos on Software
+    &copy; 2021 Ramos on Software
   </a>
     <div>
 <div hidden>

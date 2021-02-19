@@ -9,10 +9,10 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.52" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
 
     
@@ -34,16 +34,14 @@
 <meta property="og:description" content="Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details. Docker &amp; Kubernetes were designed with isolation in mind ( they are called containers for a reason ). You need to understand the Ingress triology properlly : Ingress -&gt; Service -&gt; Containers.
 The Container The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/" /><meta property="article:published_time" content="2018-12-14T13:23:10&#43;01:00"/>
-<meta property="article:modified_time" content="2018-12-14T13:23:10&#43;01:00"/>
-
+<meta property="og:url" content="https://jcjramos.github.io/posts/2018-12-14-expose-kubernertes-services/" />
+<meta property="article:published_time" content="2018-12-14T13:23:10+01:00" />
+<meta property="article:modified_time" content="2018-12-14T13:23:10+01:00" />
 <meta itemprop="name" content="The Ingress triology">
 <meta itemprop="description" content="Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details. Docker &amp; Kubernetes were designed with isolation in mind ( they are called containers for a reason ). You need to understand the Ingress triology properlly : Ingress -&gt; Service -&gt; Containers.
 The Container The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver.">
-
-
-<meta itemprop="datePublished" content="2018-12-14T13:23:10&#43;01:00" />
-<meta itemprop="dateModified" content="2018-12-14T13:23:10&#43;01:00" />
+<meta itemprop="datePublished" content="2018-12-14T13:23:10+01:00" />
+<meta itemprop="dateModified" content="2018-12-14T13:23:10+01:00" />
 <meta itemprop="wordCount" content="377">
 
 
@@ -54,11 +52,9 @@ The Container The fist step is to have the container running, inside the contain
 <meta name="twitter:description" content="Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details. Docker &amp; Kubernetes were designed with isolation in mind ( they are called containers for a reason ). You need to understand the Ingress triology properlly : Ingress -&gt; Service -&gt; Containers.
 The Container The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver."/>
 
-      
-    
   </head>
 
-  <body class="ma0 avenir bg-near-white production">
+  <body class="ma0 avenir bg-near-white">
 
     
    
@@ -136,47 +132,29 @@ The Container The fist step is to have the container running, inside the contain
       
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<p>Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details.  Docker &amp; Kubernetes were designed with isolation in mind  ( they are called containers for a reason ).
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Deploying http services in a Kubernetes cluster can be a bit challenging, although the basic principles are simple it is not always easy to manage all the details.  Docker &amp; Kubernetes were designed with isolation in mind  ( they are called containers for a reason ).
 You need to understand the Ingress triology properlly :
 Ingress -&gt; Service -&gt; Containers.</p>
-
 <h2 id="the-container">The Container</h2>
-
 <p>The fist step is to have the container running, inside the container there is a service running that accepts HTTP connections – let’s say tomcat running a webserver.
 The tricky part is that it is not enough to have the service running inside the container.
 Imagine that you ssh to the container and check the service, lile</p>
-
 <pre><code>[container bash]wget http://localhost:8080 [OK)
-</code></pre>
-
-<p>But then you come outside the container :</p>
-
+</code></pre><p>But then you come outside the container :</p>
 <pre><code>[kube bash]wget http://container.ip:8080 [NOK)
-</code></pre>
-
-<p>That’s because it must be specified that the port is to be exposed outside.
+</code></pre><p>That’s because it must be specified that the port is to be exposed outside.
 In your yaml/helm chart deployement you need something like :
 Now you need to specify</p>
-
 <pre><code>metadata:
   name: my-very-nice-container
 …
           ports:
             - containerPort: 8080
               name: http
-</code></pre>
-
-<p>Now, when the POD with the container is deployed you can do something like :</p>
-
+</code></pre><p>Now, when the POD with the container is deployed you can do something like :</p>
 <pre><code>[kube bash]wget http://container.ip:8080 [OK)
-</code></pre>
-
-<h2 id="the-service">The Service</h2>
-
+</code></pre><h2 id="the-service">The Service</h2>
 <p>In the previous step you already deployed a container with your service and it works ! now the issue is that the container IP might change, or your are deploying in a cluster and you don’t know in what node it will run. The proper way to handle this is to create a service.</p>
-
 <pre><code>metadata:
   name: my-very-nice-service
 ...
@@ -185,18 +163,11 @@ Now you need to specify</p>
       - name: my-very-nice-container
         ports:
         - containerPort: 8080
-</code></pre>
-
-<p>And that’s it, now you can refer to the service by it’s name, regardless of the node, like :</p>
-
+</code></pre><p>And that’s it, now you can refer to the service by it’s name, regardless of the node, like :</p>
 <pre><code>[kube bash]wget http:// my-very-nice-service:8080 [OK)
-</code></pre>
-
-<h2 id="the-ingress">The Ingress</h2>
-
+</code></pre><h2 id="the-ingress">The Ingress</h2>
 <p>In the previous part we already have a kubernetes service defined and can use it inside the cluster, but what about access from outside the cluster ? then you need an ingress, and ingress will enable the system to forward outside requests to your service.
 In the bellow example we state that requests to my.very.nice.host.com/very-nice will be forwarded to the service defined in the previous step.</p>
-
 <pre><code>metadata:
   name: my-very-nice-ingress
 ...
@@ -209,11 +180,8 @@ spec:
         backend:
           serviceName: my-very-nice-service
           servicePort: 8080
-</code></pre>
-
-<pre><code>[outside bash]wget http://my.very.nice.host.com//very-nice [OK)
-</code></pre>
-<ul class="pa0">
+</code></pre><pre><code>[outside bash]wget http://my.very.nice.host.com//very-nice [OK)
+</code></pre><ul class="pa0">
   
    <li class="list">
      <a href="/tags/microservices" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">microservices</a>
@@ -250,7 +218,7 @@ spec:
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
-    &copy; 2020 Ramos on Software
+    &copy; 2021 Ramos on Software
   </a>
     <div>
 <div hidden>

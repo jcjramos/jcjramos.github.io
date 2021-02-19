@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kubernetes on Ramos on Software</title>
+    <title>kubernetes on Ramos on Software</title>
     <link>https://jcjramos.github.io/tags/kubernetes/</link>
-    <description>Recent content in Kubernetes on Ramos on Software</description>
+    <description>Recent content in kubernetes on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Jan 2019 13:23:10 +0100</lastBuildDate>
-    
-	<atom:link href="https://jcjramos.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 21 Jan 2019 13:23:10 +0100</lastBuildDate><atom:link href="https://jcjramos.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>More About Helm - Tips</title>
       <link>https://jcjramos.github.io/posts/2019-01-21-more-about-helm-tips/</link>
@@ -18,7 +14,7 @@
       
       <guid>https://jcjramos.github.io/posts/2019-01-21-more-about-helm-tips/</guid>
       <description>Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
-Btw, you migth like to see this previous post and eventually this one
+Btw, you migth like to see this previous post and eventually [this one] (../2019-01-04-more-about-helm-values/)
 Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation.</description>
     </item>
     

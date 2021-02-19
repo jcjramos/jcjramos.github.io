@@ -9,10 +9,10 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.52" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
 
     
@@ -32,21 +32,19 @@
 
     <meta property="og:title" content="More About Helm - Tips" />
 <meta property="og:description" content="Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
-Btw, you migth like to see this previous post and eventually this one
+Btw, you migth like to see this previous post and eventually [this one] (../2019-01-04-more-about-helm-values/)
 Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jcjramos.github.io/posts/2019-01-21-more-about-helm-tips/" /><meta property="article:published_time" content="2019-01-21T13:23:10&#43;01:00"/>
-<meta property="article:modified_time" content="2019-01-21T13:23:10&#43;01:00"/>
-
+<meta property="og:url" content="https://jcjramos.github.io/posts/2019-01-21-more-about-helm-tips/" />
+<meta property="article:published_time" content="2019-01-21T13:23:10+01:00" />
+<meta property="article:modified_time" content="2019-01-21T13:23:10+01:00" />
 <meta itemprop="name" content="More About Helm - Tips">
 <meta itemprop="description" content="Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
-Btw, you migth like to see this previous post and eventually this one
+Btw, you migth like to see this previous post and eventually [this one] (../2019-01-04-more-about-helm-values/)
 Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation.">
-
-
-<meta itemprop="datePublished" content="2019-01-21T13:23:10&#43;01:00" />
-<meta itemprop="dateModified" content="2019-01-21T13:23:10&#43;01:00" />
-<meta itemprop="wordCount" content="276">
+<meta itemprop="datePublished" content="2019-01-21T13:23:10+01:00" />
+<meta itemprop="dateModified" content="2019-01-21T13:23:10+01:00" />
+<meta itemprop="wordCount" content="277">
 
 
 
@@ -54,14 +52,12 @@ Tip 1 – Files in configmaps There are cases where you will need to move existi
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="More About Helm - Tips"/>
 <meta name="twitter:description" content="Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.
-Btw, you migth like to see this previous post and eventually this one
+Btw, you migth like to see this previous post and eventually [this one] (../2019-01-04-more-about-helm-values/)
 Tip 1 – Files in configmaps There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation."/>
 
-      
-    
   </head>
 
-  <body class="ma0 avenir bg-near-white production">
+  <body class="ma0 avenir bg-near-white">
 
     
    
@@ -139,33 +135,21 @@ Tip 1 – Files in configmaps There are cases where you will need to move existi
       
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<p>Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.</p>
-
-<p>Btw, you migth like to see <a href="../2018-12-19-about-helm/">this previous post</a> and eventually <a href="../2019-01-04-more-about-helm-values/">this one</a></p>
-
-<h2 id="tip-1-files-in-configmaps">Tip 1 – Files in configmaps</h2>
-
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Helm is one of the best tools available to simplify your kubernetes development. In this post I’ll be adding some tips that might help you in the development of your helm charts.</p>
+<p>Btw, you migth like to see <a href="../2018-12-19-about-helm/">this previous post</a> and eventually [this one] (../2019-01-04-more-about-helm-values/)</p>
+<h2 id="tip-1--files-in-configmaps">Tip 1 – Files in configmaps</h2>
 <p>There are cases where you will need to move existing configuration files to config maps, a hard working solution is to just type in the whole file with the proper config map indentation.
 A more practical solution is to use helm .Files.Glob command. This command will map the content of files in a specific directory to your config map.</p>
-
 <p>Imagine you have 2 xml files, for example defining log4j options – alog.xml and blog.xml in the config directory.
 To map them to a config map you would simply :</p>
-
 <pre><code>apiVersion: v1
 kind: ConfigMap
 metadata:
 (metadata here...)
 {{ (.Files.Glob &quot;config/*&quot;).AsConfig | indent 2 }}
-</code></pre>
-
-<p>And that’s it !</p>
-
-<h2 id="tip-2-wait-for-service">Tip 2 – Wait for service</h2>
-
+</code></pre><p>And that’s it !</p>
+<h2 id="tip-2--wait-for-service">Tip 2 – Wait for service</h2>
 <p>Container based services should be resilient and well behaved, thus when service A depends on B, A should handle properly the case B is not available – but not all services are well behaved and sometimes is not praticall to change them. A work around solution is to handle availability  in the heml chart. This can be done using a init container.</p>
-
 <pre><code>      initContainers:
       - name: wait-for-service-b
         image: any-basic-image-with-curl-avilable
@@ -177,9 +161,7 @@ metadata:
            until $(curl --output /dev/null --silent --head --fail service-b-name); do
                 sleep 10
            done         
-</code></pre>
-
-<p>In this case the init container would keep “curling” service b until it is available and one then container A would be started.</p>
+</code></pre><p>In this case the init container would keep “curling” service b until it is available and one then container A would be started.</p>
 <ul class="pa0">
   
    <li class="list">
@@ -244,7 +226,7 @@ metadata:
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
-    &copy; 2020 Ramos on Software
+    &copy; 2021 Ramos on Software
   </a>
     <div>
 <div hidden>

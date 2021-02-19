@@ -1,15 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Agile on Ramos on Software</title>
+    <title>agile on Ramos on Software</title>
     <link>https://jcjramos.github.io/tags/agile/</link>
-    <description>Recent content in Agile on Ramos on Software</description>
+    <description>Recent content in agile on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Dec 2019 13:23:10 +0100</lastBuildDate>
-    
-	<atom:link href="https://jcjramos.github.io/tags/agile/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 04 Feb 2021 13:23:10 +0100</lastBuildDate><atom:link href="https://jcjramos.github.io/tags/agile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beware of people telling you how to build a MVP !</title>
+      <link>https://jcjramos.github.io/posts/2021-02-04-build-an-mvp/</link>
+      <pubDate>Thu, 04 Feb 2021 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2021-02-04-build-an-mvp/</guid>
+      <description>“There is a way of being wrong which is also sometimes necessarily right.” - Edward Abbey MVP stands for minimum viable product, and it is a popular thing between Agile software developers. A MVP is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development. Software developers typically deploy the product to a subset of possible customers to get feedback and be able to grasp a proper product vision.</description>
+    </item>
     
     <item>
       <title>The subtle art of saying no</title>
@@ -18,8 +23,8 @@
       
       <guid>https://jcjramos.github.io/posts/2019-12-14-the-subtle-art-of-saying-no-copy/</guid>
       <description>I’ve been wondering a lot about the importance of saying no recently:
- Personally I’ve been trying to focus on important things and say no to other stuff that ends up consuming a lot of energy but is not that relevant.
- Professionally as a Product Owner I got to say no a lot ! actually I think the art to say no is one of the most important characteristics of a good PO.</description>
+  Personally I’ve been trying to focus on important things and say no to other stuff that ends up consuming a lot of energy but is not that relevant.
+  Professionally as a Product Owner I got to say no a lot ! actually I think the art to say no is one of the most important characteristics of a good PO.</description>
     </item>
     
     <item>
@@ -28,7 +33,7 @@
       <pubDate>Sat, 30 Nov 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/posts/2019-11-30-its-all-about-the-people-copy/</guid>
-      <description>I really like this article I’ve read in Increment The epistemology of software quality
+      <description>I really like this article I’ve read in Increment [The epistemology of software quality] ( https://increment.com/teams/the-epistemology-of-software-quality/ )
 Say you run a new team. You have carte blanche to implement any policies you want to make the team more productive and the code less buggy. What do you do? You could choose a new programming language, or switch everything to microservices, or follow the hottest trend in process. Or you could do things that matter.</description>
     </item>
     

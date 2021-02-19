@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ransomware on Ramos on Software</title>
+    <title>ransomware on Ramos on Software</title>
     <link>https://jcjramos.github.io/categories/ransomware/</link>
-    <description>Recent content in Ransomware on Ramos on Software</description>
+    <description>Recent content in ransomware on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Aug 2018 13:23:10 +0100</lastBuildDate>
-    
-	<atom:link href="https://jcjramos.github.io/categories/ransomware/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 17 Aug 2018 13:23:10 +0100</lastBuildDate><atom:link href="https://jcjramos.github.io/categories/ransomware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The new normal ?</title>
       <link>https://jcjramos.github.io/posts/2018-08-17-165/</link>
@@ -18,7 +14,7 @@
       
       <guid>https://jcjramos.github.io/posts/2018-08-17-165/</guid>
       <description>Last week, CUF hospital, one of the biggest Portuguese private hospitals was attacked by ransomware, you can read about it here if you can read Portuguese.
-seems that the the SamSam ransomware was used, likely by the same grupo that has been targeting hospitals around the globe .
+seems that the the SamSam ransomware was used, likely by the same grupo that has been targeting hospitals around the globe.
 There are not many details available, the Hospital claims that “Everything is normal”, but apparently some exams were lost, likely encrypted by the ransomware, as they refused to pay for the ransom.</description>
     </item>
     

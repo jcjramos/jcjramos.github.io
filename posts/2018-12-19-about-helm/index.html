@@ -9,10 +9,10 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.52" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
 
     
@@ -33,15 +33,13 @@
     <meta property="og:title" content="About Helm" />
 <meta property="og:description" content="Microservices are supposed to be small and dedicated, the issue when you move an application to a microservices based architecture is that you quickly get many of them. Dealing with each service individually becomes much easier as they get more “micro”, but deal with the whole bunch can be a nightmare. Look at the example bellow, in the 1st interaction of a typical application it became something like this :" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jcjramos.github.io/posts/2018-12-19-about-helm/" /><meta property="article:published_time" content="2018-12-19T13:23:10&#43;01:00"/>
-<meta property="article:modified_time" content="2018-12-19T13:23:10&#43;01:00"/>
-
+<meta property="og:url" content="https://jcjramos.github.io/posts/2018-12-19-about-helm/" />
+<meta property="article:published_time" content="2018-12-19T13:23:10+01:00" />
+<meta property="article:modified_time" content="2018-12-19T13:23:10+01:00" />
 <meta itemprop="name" content="About Helm">
 <meta itemprop="description" content="Microservices are supposed to be small and dedicated, the issue when you move an application to a microservices based architecture is that you quickly get many of them. Dealing with each service individually becomes much easier as they get more “micro”, but deal with the whole bunch can be a nightmare. Look at the example bellow, in the 1st interaction of a typical application it became something like this :">
-
-
-<meta itemprop="datePublished" content="2018-12-19T13:23:10&#43;01:00" />
-<meta itemprop="dateModified" content="2018-12-19T13:23:10&#43;01:00" />
+<meta itemprop="datePublished" content="2018-12-19T13:23:10+01:00" />
+<meta itemprop="dateModified" content="2018-12-19T13:23:10+01:00" />
 <meta itemprop="wordCount" content="302">
 
 
@@ -51,11 +49,9 @@
 <meta name="twitter:title" content="About Helm"/>
 <meta name="twitter:description" content="Microservices are supposed to be small and dedicated, the issue when you move an application to a microservices based architecture is that you quickly get many of them. Dealing with each service individually becomes much easier as they get more “micro”, but deal with the whole bunch can be a nightmare. Look at the example bellow, in the 1st interaction of a typical application it became something like this :"/>
 
-      
-    
   </head>
 
-  <body class="ma0 avenir bg-near-white production">
+  <body class="ma0 avenir bg-near-white">
 
     
    
@@ -135,7 +131,6 @@
 
     <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Microservices are supposed to be small and dedicated, the issue when you move an application to a microservices based architecture is that you quickly get many of them. Dealing with each service individually becomes much easier as they get more “micro”, but deal with the whole bunch can be a nightmare.
 Look at the example bellow, in the 1st interaction of a typical application it became something like this :</p>
-
 <pre><code>+-------------------------+        +-------------------------+
 |     typical-frontend    |        |      typical-backend    |
 |                         |        |                         |
@@ -145,10 +140,7 @@ Look at the example bellow, in the 1st interaction of a typical application it b
 |     typical-database    |        |      typical-interf     |
 |                         |        |                         |
 +-------------------------+        +-------------------------+
-</code></pre>
-
-<p>But then developers became more familiar with microservices, start splitting them in more specialized tasks and it became this :</p>
-
+</code></pre><p>But then developers became more familiar with microservices, start splitting them in more specialized tasks and it became this :</p>
 <pre><code>+-------------------------+        +-------------------------+
 |   typical-frontend-A    |        |    typical-backend-A    |
 |                         |        |                         |
@@ -168,13 +160,9 @@ Look at the example bellow, in the 1st interaction of a typical application it b
 |     typical-interf-B    |        |    typical-interf-C     |
 |                         |        |                         |
 +-------------------------+        +-------------------------+
-</code></pre>
-
-<p>Looking at it, you notice that the task to deploy this application is not an easy one, there are many services, it is easy to forget about one of them. Also there are dependencies between the services, how to make sure that an upgrade is made properly ? one way is to use Helm <a href="https://helm.sh/">https://helm.sh/</a>
-<em>&ldquo;Helm helps you manage Kubernetes applications — Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application.&rdquo;</em></p>
-
+</code></pre><p>Looking at it, you notice that the task to deploy this application is not an easy one, there are many services, it is easy to forget about one of them. Also there are dependencies between the services, how to make sure that an upgrade is made properly ? one way is to use Helm <a href="https://helm.sh/">https://helm.sh/</a>
+<em>&ldquo;Helm helps you manage Kubernetes applications — Helm Charts helps you define, install, and upgrade even the most complex Kubernetes application.&quot;</em></p>
 <p>Definitely worth’s a look, one particular feature that I like is that you can define dependencies, for example you could define something like :</p>
-
 <pre><code>requirements.yaml
 dependencies:
   - name: typical-frontend-A
@@ -185,9 +173,7 @@ dependencies:
     repository: http://my-repo
 etc..
 
-</code></pre>
-
-<p>and manage the full set of services in a centralized way.</p>
+</code></pre><p>and manage the full set of services in a centralized way.</p>
 <ul class="pa0">
   
    <li class="list">
@@ -240,7 +226,7 @@ etc..
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
-    &copy; 2020 Ramos on Software
+    &copy; 2021 Ramos on Software
   </a>
     <div>
 <div hidden>

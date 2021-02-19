@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Ramos on Software</title>
@@ -6,10 +6,15 @@
     <description>Recent content in Software on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Nov 2019 13:23:10 +0100</lastBuildDate>
-    
-	<atom:link href="https://jcjramos.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 04 Feb 2021 13:23:10 +0100</lastBuildDate><atom:link href="https://jcjramos.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beware of people telling you how to build a MVP !</title>
+      <link>https://jcjramos.github.io/posts/2021-02-04-build-an-mvp/</link>
+      <pubDate>Thu, 04 Feb 2021 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2021-02-04-build-an-mvp/</guid>
+      <description>“There is a way of being wrong which is also sometimes necessarily right.” - Edward Abbey MVP stands for minimum viable product, and it is a popular thing between Agile software developers. A MVP is a version of a product with just enough features to be usable by early customers who can then provide feedback for future product development. Software developers typically deploy the product to a subset of possible customers to get feedback and be able to grasp a proper product vision.</description>
+    </item>
     
     <item>
       <title>In the end it&#39;s all about the people</title>
@@ -17,7 +22,7 @@
       <pubDate>Sat, 30 Nov 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/posts/2019-11-30-its-all-about-the-people-copy/</guid>
-      <description>I really like this article I’ve read in Increment The epistemology of software quality
+      <description>I really like this article I’ve read in Increment [The epistemology of software quality] ( https://increment.com/teams/the-epistemology-of-software-quality/ )
 Say you run a new team. You have carte blanche to implement any policies you want to make the team more productive and the code less buggy. What do you do? You could choose a new programming language, or switch everything to microservices, or follow the hottest trend in process. Or you could do things that matter.</description>
     </item>
     
@@ -27,7 +32,7 @@ Say you run a new team. You have carte blanche to implement any policies you wan
       <pubDate>Tue, 27 Aug 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</guid>
-      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD - Continuous Integration / Continuous Delivery pipelines in software development.
+      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD - [Continuous Integration] (https://en.wikipedia.org/wiki/Continuous_integration) / [Continuous Delivery] (https://en.wikipedia.org/wiki/Continuous_delivery) pipelines in software development.
 At the time I’ve came across “Joel Test”, found that comply with rule number 2 migth be a good thing and I’ve tried to create a simple build script that would emulate a kind of basic CI pipe – at the time I was working on a application composed of a set of components based on Win32 DLL’s+EXE; my CI script would compile the necessary DLL’s, join them in a directory and check if it run.</description>
     </item>
     

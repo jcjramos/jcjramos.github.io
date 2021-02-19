@@ -9,10 +9,10 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.52" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
 
     
@@ -33,15 +33,13 @@
     <meta property="og:title" content="Dependency Hell v2019 " />
 <meta property="og:description" content="A recent problem that one of the teams I work with faced, related to a major DB vendor and a set of different incompatible patches remind me of the 90’s. During the late 90’s I’ve worked for a Windows shop that developed a huge DLL based application, taking care of dependencies was a nightmare…early MS win 95 versions didn’t include any good mechanism to track DLL versions, also initially this was not a major concern when developing our application, but we end up creating a lot of DLLs and with additional dependencies from SO and 3rd party DLL’s, so I know fist hand what “DLL hell” means." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019/" /><meta property="article:published_time" content="2019-02-04T13:23:10&#43;01:00"/>
-<meta property="article:modified_time" content="2019-02-04T13:23:10&#43;01:00"/>
-
+<meta property="og:url" content="https://jcjramos.github.io/posts/2019-02-04-dependency-hell-v2019/" />
+<meta property="article:published_time" content="2019-02-04T13:23:10+01:00" />
+<meta property="article:modified_time" content="2019-02-04T13:23:10+01:00" />
 <meta itemprop="name" content="Dependency Hell v2019 ">
 <meta itemprop="description" content="A recent problem that one of the teams I work with faced, related to a major DB vendor and a set of different incompatible patches remind me of the 90’s. During the late 90’s I’ve worked for a Windows shop that developed a huge DLL based application, taking care of dependencies was a nightmare…early MS win 95 versions didn’t include any good mechanism to track DLL versions, also initially this was not a major concern when developing our application, but we end up creating a lot of DLLs and with additional dependencies from SO and 3rd party DLL’s, so I know fist hand what “DLL hell” means.">
-
-
-<meta itemprop="datePublished" content="2019-02-04T13:23:10&#43;01:00" />
-<meta itemprop="dateModified" content="2019-02-04T13:23:10&#43;01:00" />
+<meta itemprop="datePublished" content="2019-02-04T13:23:10+01:00" />
+<meta itemprop="dateModified" content="2019-02-04T13:23:10+01:00" />
 <meta itemprop="wordCount" content="336">
 
 
@@ -51,11 +49,9 @@
 <meta name="twitter:title" content="Dependency Hell v2019 "/>
 <meta name="twitter:description" content="A recent problem that one of the teams I work with faced, related to a major DB vendor and a set of different incompatible patches remind me of the 90’s. During the late 90’s I’ve worked for a Windows shop that developed a huge DLL based application, taking care of dependencies was a nightmare…early MS win 95 versions didn’t include any good mechanism to track DLL versions, also initially this was not a major concern when developing our application, but we end up creating a lot of DLLs and with additional dependencies from SO and 3rd party DLL’s, so I know fist hand what “DLL hell” means."/>
 
-      
-    
   </head>
 
-  <body class="ma0 avenir bg-near-white production">
+  <body class="ma0 avenir bg-near-white">
 
     
    
@@ -134,11 +130,9 @@
     </header>
 
     <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>A recent problem that one of the teams I work with faced, related to a major DB vendor and a set of different incompatible patches remind me of the 90’s. During the late 90’s I’ve worked for a Windows shop that developed a huge DLL based application, taking care of dependencies was a nightmare…early MS win 95 versions didn’t include any good mechanism to track DLL versions, also initially this was not a major concern when developing our application, but we end up creating a lot of DLLs and with additional dependencies from SO and 3rd party DLL’s, so I know fist hand what “DLL hell” means. By the way the term “dependency hell “ is a common software problem that has the honor of it’s own <a href="https://en.wikipedia.org/wiki/Dependency_hell">Wikipedia entry</a>.</p>
-
 <blockquote>
 <p>&ldquo;The dependency issue arises around shared packages or libraries on which several other packages have dependencies but where they depend on different and incompatible versions of the shared packages. If the shared package or library can only be installed in a single version, the user may need to address the problem by obtaining newer or older versions of the dependent packages. This, in turn, may break other dependencies and push the problem to another set of packages.&rdquo;</p>
 </blockquote>
-
 <p>But with time software systems improved a lot, smart package managers are common these days. A real dependency problem still happens sometimes, software today is much more complex than it was in the late 90’s and any simple 2019 software has a huge dependency tree. But it’s kind of rare in well designed and maintained system.
 But sometimes I’m surprised to find out that today, even large software companies with huge teams don’t tackle the dependency problem right – they seem so unconcern about it like my former team in the late 90’s…they say please apply PATCH A to solve your problem. Then you find that PATCH A that depends on PATCH B that depends on PATCH C that breaks patch A … seems like 1999 all over again !</p>
 <ul class="pa0">
@@ -166,7 +160,7 @@ But sometimes I’m surprised to find out that today, even large software compan
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
-    &copy; 2020 Ramos on Software
+    &copy; 2021 Ramos on Software
   </a>
     <div>
 <div hidden>

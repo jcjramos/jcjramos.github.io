@@ -1,23 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Ramos on Software</title>
+    <title>java on Ramos on Software</title>
     <link>https://jcjramos.github.io/tags/java/</link>
-    <description>Recent content in Java on Ramos on Software</description>
+    <description>Recent content in java on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Aug 2019 13:23:10 +0100</lastBuildDate>
-    
-	<atom:link href="https://jcjramos.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 27 Aug 2019 13:23:10 +0100</lastBuildDate><atom:link href="https://jcjramos.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Continuous Everything</title>
       <link>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</link>
       <pubDate>Tue, 27 Aug 2019 13:23:10 +0100</pubDate>
       
       <guid>https://jcjramos.github.io/posts/2019-08-27-continuous-everything/</guid>
-      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD - Continuous Integration / Continuous Delivery pipelines in software development.
+      <description>I’ve found out this week that the famous Joel test reached 19 years of age this month, besides reminding me how old I’m getting it reminded me of the importance of proper CI/CD - [Continuous Integration] (https://en.wikipedia.org/wiki/Continuous_integration) / [Continuous Delivery] (https://en.wikipedia.org/wiki/Continuous_delivery) pipelines in software development.
 At the time I’ve came across “Joel Test”, found that comply with rule number 2 migth be a good thing and I’ve tried to create a simple build script that would emulate a kind of basic CI pipe – at the time I was working on a application composed of a set of components based on Win32 DLL’s+EXE; my CI script would compile the necessary DLL’s, join them in a directory and check if it run.</description>
     </item>
     

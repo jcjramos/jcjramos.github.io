@@ -9,10 +9,10 @@
     <meta name="MobileOptimized" content="320">
 
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.52" />
+    <meta name="generator" content="Hugo 0.80.0" />
     
     
-      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     
 
     
@@ -34,17 +34,15 @@
 <meta property="og:description" content="One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;
 Where is my log ? The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jcjramos.github.io/posts/2019-01-08-the-log-triollogy/" /><meta property="article:published_time" content="2019-01-08T13:23:10&#43;01:00"/>
-<meta property="article:modified_time" content="2019-01-08T13:23:10&#43;01:00"/>
-
+<meta property="og:url" content="https://jcjramos.github.io/posts/2019-01-08-the-log-triollogy/" />
+<meta property="article:published_time" content="2019-01-08T13:23:10+01:00" />
+<meta property="article:modified_time" content="2019-01-08T13:23:10+01:00" />
 <meta itemprop="name" content="The logging triology - ELK Elasticsearch &#43; Logstash &#43; Kibana">
 <meta itemprop="description" content="One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;
 Where is my log ? The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service.">
-
-
-<meta itemprop="datePublished" content="2019-01-08T13:23:10&#43;01:00" />
-<meta itemprop="dateModified" content="2019-01-08T13:23:10&#43;01:00" />
-<meta itemprop="wordCount" content="175">
+<meta itemprop="datePublished" content="2019-01-08T13:23:10+01:00" />
+<meta itemprop="dateModified" content="2019-01-08T13:23:10+01:00" />
+<meta itemprop="wordCount" content="176">
 
 
 
@@ -54,11 +52,9 @@ Where is my log ? The number of different services &amp; service instances rapid
 <meta name="twitter:description" content="One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;
 Where is my log ? The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service."/>
 
-      
-    
   </head>
 
-  <body class="ma0 avenir bg-near-white production">
+  <body class="ma0 avenir bg-near-white">
 
     
    
@@ -136,27 +132,18 @@ Where is my log ? The number of different services &amp; service instances rapid
       
     </header>
 
-    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<p>One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;</p>
-
-<h2 id="where-is-my-log">Where is my log ?</h2>
-
+    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>One of the side effects of a microservices architecture is that checking logs soon becomes a problem. At the beginning of the process, when you think about containerizing an application, it seems simple and straightforward – you just log to stdout and docker or kubernetes handle it. But then &hellip;</p>
+<h2 id="where-is-my-log-">Where is my log ?</h2>
 <p>The number of different services &amp; service instances rapidly explodes and then it becomes really difficult to find a particular log and to troubleshoot the misbehaviour of a micro-service. The solution is to add a log management application, something to store your logs and to allow you to search through them.</p>
-
 <p>A nice solution is to use the ELK stack, basically 3 components :</p>
-
 <ol>
 <li>Logstash, Collects and transforms</li>
 <li>Elasticsearch, Search and Analize</li>
 <li>Kibana, Vizualize and manage</li>
 </ol>
-
 <p>The ELK deployment in a kubernetes cluster is quite straightforward, definitely the added value it brings worth’s the investment.</p>
-
 <p>Note1 : As a bonus elastic comes with a REST API that you can use to integrate with your own application.</p>
-
-<p>Note2: <a href="https://www.elastic.co/">More info here.</a></p>
+<p>Note2: [More info here.] (<a href="https://www.elastic.co/">https://www.elastic.co/</a>)</p>
 <ul class="pa0">
   
    <li class="list">
@@ -229,7 +216,7 @@ Where is my log ? The number of different services &amp; service instances rapid
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://jcjramos.github.io/" >
-    &copy; 2020 Ramos on Software
+    &copy; 2021 Ramos on Software
   </a>
     <div>
 <div hidden>
