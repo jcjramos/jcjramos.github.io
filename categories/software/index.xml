@@ -6,7 +6,17 @@
     <description>Recent content in Software on Ramos on Software</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Feb 2021 13:23:10 +0100</lastBuildDate><atom:link href="https://jcjramos.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 13:23:10 +0100</lastBuildDate><atom:link href="https://jcjramos.github.io/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ruminations on the post pandemic IT industry in Portugal</title>
+      <link>https://jcjramos.github.io/posts/2021-03-29-portuguese-it/</link>
+      <pubDate>Tue, 23 Mar 2021 13:23:10 +0100</pubDate>
+      
+      <guid>https://jcjramos.github.io/posts/2021-03-29-portuguese-it/</guid>
+      <description>In the recent decades the business model for the IT industry in Portugal was mostly a nearshoring model, much of the industry profits from the difference between IT salaries in Portugal vs central Europe. Knowing that the average salary in Portugal is roughly 50% lower than Germany and it’s just 1h time difference, it’s easy to understand that this can be a very lucrative model.
+Things start to change during the Portuguese debt crisis during the early 2010’s, due to the dim opportunities at home many Portuguese youngsters moved to other European countries – moving abroad was particularly easy for the “IT crowd” given that their skills were in high demand abroad and usually it’s not a job requirement to know any other language besides English.</description>
+    </item>
+    
     <item>
       <title>Beware of people telling you how to build a MVP !</title>
       <link>https://jcjramos.github.io/posts/2021-02-04-build-an-mvp/</link>
